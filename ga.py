@@ -3,6 +3,7 @@ import random
 import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
+from concurrent.futures import ThreadPoolExecutor
 
 class Individual:
     def __new__(cls, *args, **kwargs):
@@ -44,6 +45,10 @@ class GA:
         self.seed = params["SEED"]
         self.hist = cv.calcHist([self.image], [0], None, [256], [0, 256]).flatten()
         random.seed(self.seed)
+        self.mutationOps = [0, 1, 2]
+        self.currentMutationOp = 0
+        self.fitness_cache = {}
+        self.fitness_function = params["FITNESS_FUNCTION"]
 
     def initialize_population(self):
         population = []
@@ -60,6 +65,128 @@ class GA:
             return Individual(chromosome=child1, K_THRESHOLD=self.K_THRESHOLD), Individual(chromosome=child2, K_THRESHOLD=self.K_THRESHOLD)
         return parent1, parent2    
 
+    # Implement new mutation
+    def hybridMutation(self, individual):
+        if self.currentMutationOp == 0:
+            return self.ILS_1(individual)
+        elif self.currentMutationOp == 1:
+            return self.ILS_2(individual)
+        elif self.currentMutationOp == 2:
+            return self.Tabu(individual)
+    
+    def Tabu(self, individual, tabu_size=5, max_iter=30, neighbourhood_size=10):
+        best_individual = individual
+        current_individual = copy.deepcopy(individual)
+        tabu_list = []
+
+        for _ in range(max_iter):
+            neighbours = []
+
+            for _ in range(neighbourhood_size):
+                neighbour = copy.deepcopy(current_individual)
+                neighbour.set_chromosome(self.mutation(neighbour).get_chromosome())
+                neighbours.append(neighbour)
+
+            for neighbour in neighbours:
+                self.calculate_fitness_wrapper(neighbour)
+
+            if self.fitness_function == 'otsu_within_class_variance' or self.fitness_function == 'otsu_total_class_variance':
+                neighbours = sorted(neighbours, key=lambda x: x.get_fitness(), reverse=True)
+            else:
+                neighbours = sorted(neighbours, key=lambda x: x.get_fitness())
+            best_neighbour = None
+            for neighbour in neighbours:
+                NOT_IN_TABU =True
+                for tabu in tabu_list:
+                    if neighbour.get_chromosome() == tabu.get_chromosome():
+                        NOT_IN_TABU = False
+                        break
+
+                if NOT_IN_TABU:
+                    best_neighbour = neighbour
+                    tabu_list.append(best_neighbour)
+                    if(len(tabu_list) > tabu_size):
+                        tabu_list.pop(0)
+                    break
+                    
+            if ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and best_neighbour.get_fitness() > current_individual.get_fitness()) or (self.fitness_function == 'otsu_within_class_variance' and best_neighbour.get_fitness() < current_individual.get_fitness()):
+                current_individual = best_neighbour
+                if ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and current_individual.get_fitness() > best_individual.get_fitness()) or (self.fitness_function == 'otsu_within_class_variance' and current_individual.get_fitness() < best_individual.get_fitness()):
+                    best_individual = copy.deepcopy(current_individual)
+    
+        return best_individual
+                
+    
+    def ILS_1(self, individual, num_iterations = 30):
+
+        best_individual = self.local_search(individual, incDec = False)
+        best_score = best_individual.get_fitness()
+
+        for iteration in range(num_iterations):
+
+            perturbed_solution = self.mutation(best_individual)
+            improved_solution = self.local_search(perturbed_solution, incDec = False) 
+
+            if ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and improved_solution.get_fitness() > best_score) or (self.fitness_function == 'otsu_within_class_variance' and improved_solution.get_fitness() < best_score):
+                best_individual = improved_solution
+                best_score = improved_solution.get_fitness()
+        
+    
+
+        return best_individual
+    
+    def ILS_2(self, individual, num_iterations = 30):
+
+        best_individual = self.local_search(individual, incDec = True)
+        best_score = best_individual.get_fitness()
+
+        for iteration in range(num_iterations):
+
+            perturbed_solution = self.mutation(best_individual)
+            improved_solution = self.local_search(perturbed_solution, incDec = True)
+
+            if ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and improved_solution.get_fitness() > best_score) or (self.fitness_function == 'otsu_within_class_variance' and improved_solution.get_fitness() < best_score):
+                best_individual = improved_solution
+                best_score = improved_solution.get_fitness()
+        
+    
+
+        return best_individual
+
+    def local_search(self, solution, incDec):
+        best_solution = copy.deepcopy(solution)
+        self.calculate_fitness_wrapper(best_solution)
+        best_score = best_solution.get_fitness()
+
+        # for _ in range(iterations):
+        if incDec:
+            neighbour = copy.deepcopy(best_solution)
+            randInd = random.randint(0, len(neighbour.get_chromosome()) - 1)
+            rand = random.randint(0, 10)
+            neighbour.get_chromosome()[randInd] -= rand
+        else:
+            neighbour = copy.deepcopy(best_solution)
+            randInd = random.randint(0, len(neighbour.get_chromosome()) - 1)
+            rand = random.randint(0, 10)
+            neighbour.get_chromosome()[randInd] += rand
+        
+        for i in range(len(neighbour.get_chromosome())):
+            if neighbour.get_chromosome()[i] < 0:
+                neighbour.get_chromosome()[i] = 0
+            if neighbour.get_chromosome()[i] > 255:
+                neighbour.get_chromosome()[i] = 255
+
+        self.calculate_fitness_wrapper(neighbour)
+
+        if ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and neighbour.get_fitness() > best_score) or (self.fitness_function == 'otsu_within_class_variance' and neighbour.get_fitness() < best_score):
+            best_solution = neighbour
+            best_score = neighbour.get_fitness()
+
+        return best_solution
+    
+    
+    
+    
     def mutation(self, individual):
         old_chromosome = copy.deepcopy(individual.get_chromosome())
         for i in range(len(individual.get_chromosome())):
@@ -72,7 +199,7 @@ class GA:
         tournament = random.sample(population, int(len(population) * self.TOURNAMENT_SIZE))
         best = None
         for t in tournament:
-            if best == None or t.get_fitness() > best.get_fitness():
+            if best == None or ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and t.get_fitness() > best.get_fitness()) or (self.fitness_function == 'otsu_within_class_variance' and t.get_fitness() < best.get_fitness()):
                 best = t
         return best
 
@@ -121,11 +248,31 @@ class GA:
 
         return between_class_variance
 
-    def otsu_total_class_variance(self, thresholds):
+    def otsu_total_class_variance(self, thresholds):     
         between = self.otsu_between_class_variance(thresholds)
         within = self.otsu_within_class_variance(thresholds)
+        
+        fitness_value = between ** 2 + within ** 2
+        
+        return fitness_value
+    
+    def calculate_fitness(self, thresholds):
+        chromosome_key = tuple(thresholds)
+        
+        if chromosome_key in self.fitness_cache:
+            return self.fitness_cache[chromosome_key]
+        
+        fitness_value = None
+        if self.fitness_function == "otsu_total_class_variance":
+            fitness_value = self.otsu_total_class_variance(thresholds)
+        elif self.fitness_function == "otsu_between_class_variance":
+            fitness_value = self.otsu_between_class_variance(thresholds)
+        elif self.fitness_function == "otsu_within_class_variance":
+            fitness_value = self.otsu_within_class_variance(thresholds)
+        
+        self.fitness_cache[chromosome_key] = fitness_value
 
-        return between ** 2 + within ** 2
+        return fitness_value
     
     def apply_thresholds(self, thresholds):
         thresholds = [0] + thresholds + [256]
@@ -135,14 +282,21 @@ class GA:
             output_image[mask] = int(255 / (len(thresholds) - 1)) * i
         return output_image
 
+        # Define a helper function for fitness calculation
+    def calculate_fitness_wrapper(self, individual):
+        if individual.get_fitness() == -1:  # Only evaluate if fitness is not set
+            individual.set_fitness(self.calculate_fitness(individual.get_chromosome()))
+        return individual
+
+    # Inside the GA class's ga() function
     def ga(self):
         population = self.initialize_population()
         best_individual = None
 
         # Initialize fitness and tracking lists
         for individual in population:
-            individual.set_fitness(self.otsu_total_class_variance(individual.get_chromosome()))
-            if best_individual is None or individual.get_fitness() > best_individual.get_fitness():
+            self.calculate_fitness_wrapper(individual)
+            if best_individual == None or ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and individual.get_fitness() > best_individual.get_fitness()) or (self.fitness_function == 'otsu_within_class_variance' and individual.get_fitness() < best_individual.get_fitness()):
                 best_individual = individual
 
         avg_fitness_list = [np.mean([ind.get_fitness() for ind in population])]
@@ -158,33 +312,55 @@ class GA:
         ax.set_ylabel('Fitness')
         ax.legend()
 
-        for generation in range(self.MAX_GENERATIONS):
-            # Elitism
-            elite = []
-            population = sorted(population, key=lambda x: x.get_fitness(), reverse=True)
-            for i in range(int(self.POPULATION_SIZE * self.ELITE_SIZE)):
-                elite.append(population[i])
+        same_best_counter = 0
 
-            random.shuffle(population)
-            new_population = []
-            # Selection, crossover, and mutation
-            while len(new_population) + len(elite) < self.POPULATION_SIZE:
+        # Generations loop with threading for fitness evaluation
+        same_best_counter = 0
+        for generation in range(self.MAX_GENERATIONS):
+            print("Generation ", generation)
+
+            # Elitism
+            if self.fitness_function == 'otsu_within_class_variance' or self.fitness_function == 'otsu_total_class_variance':
+                elite = sorted(population, key=lambda x: x.get_fitness(), reverse=True)[:int(self.POPULATION_SIZE * self.ELITE_SIZE)]
+            else:
+                elite = sorted(population, key=lambda x: x.get_fitness())[:int(self.POPULATION_SIZE * self.ELITE_SIZE)]
+
+            new_population = elite[:]
+            while len(new_population) < self.POPULATION_SIZE:
                 parent1 = self.tournament_selection(elite)
                 parent2 = self.tournament_selection(population)
                 child1, child2 = self.crossover(parent1, parent2)
-                child1 = self.mutation(child1)
-                child2 = self.mutation(child2)
-                new_population.append(child1)
-                new_population.append(child2)
+                child1 = self.hybridMutation(child1)
+                child2 = self.hybridMutation(child2)
+                if child1:
+                    new_population.append(child1)
+                if child2:
+                    new_population.append(child2)
 
-            population = new_population + elite
+            population = new_population
 
-            # Evaluate fitness
+            # Threaded fitness evaluation
+            with ThreadPoolExecutor() as executor:
+                updated_population = list(executor.map(lambda ind: self.calculate_fitness_wrapper(ind), population))
+
+            # Update the population with the newly calculated fitness values
+            population = updated_population
+
+            # Determine the best individual
+            prev_best_individual = best_individual
             for individual in population:
-                if individual.get_fitness() == -1:
-                    individual.set_fitness(self.otsu_total_class_variance(individual.get_chromosome()))
-                if individual.get_fitness() > best_individual.get_fitness():
+                if ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and individual.get_fitness() > best_individual.get_fitness()) or (self.fitness_function == 'otsu_within_class_variance' and individual.get_fitness() < best_individual.get_fitness()):
                     best_individual = individual
+
+            if prev_best_individual == best_individual:
+                same_best_counter += 1
+            else:
+                print("Generation: ", generation, "Best fitness: ", best_individual.get_fitness())
+                same_best_counter = 0
+
+            if same_best_counter == self.NO_IMPROVEMENT_THRESHOLD:
+                self.currentMutationOp = random.randint(0, 2)
+                same_best_counter = 0
 
             # Update fitness tracking
             avg_fitness_list.append(np.mean([ind.get_fitness() for ind in population]))

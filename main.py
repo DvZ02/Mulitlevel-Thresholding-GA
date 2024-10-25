@@ -10,9 +10,9 @@ def main(params):
 if __name__ == "__main__":
     params = [
             {
-                "POPULATION_SIZE": 250, "MAX_GENERATIONS": 150, "CROSSOVER_RATE": 0.75, "MUTATION_RATE": 0.3, 
-                "ELITE_SIZE": 0.3, "NO_IMPROVEMENT_THRESHOLD": 8, "TOURNAMENT_SIZE": 0.15, "IMAGE_PATH": "./images/12.jpg", 
-                "SEED": 0, "K_THRESHOLD": 2
+                "POPULATION_SIZE": 100, "MAX_GENERATIONS": 100, "CROSSOVER_RATE": 0.75, "MUTATION_RATE": 0.3, 
+                "ELITE_SIZE": 0.3, "NO_IMPROVEMENT_THRESHOLD": 3, "TOURNAMENT_SIZE": 0.15, "IMAGE_PATH": "./images/03.jpg", 
+                "SEED": 0, "K_THRESHOLD": 2, "FITNESS_FUNCTION": "otsu_between_class_variance"
             }
         ]
     seed_str = input("Enter a seed (or press Enter to use a random seed): ")
