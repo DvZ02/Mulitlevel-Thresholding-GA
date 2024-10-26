@@ -74,6 +74,8 @@ class GA:
                 return self.ILS_2(individual)
             elif self.currentMutationOp == 2:
                 return self.Tabu(individual)
+            # elif self.currentMutationOp == 3:
+            #     return self.mutation(individual)
     
     def Tabu(self, individual, tabu_size=5, max_iter=30, neighbourhood_size=10, ls_iterations = 10):
         best_individual = individual
@@ -85,7 +87,6 @@ class GA:
 
             for _ in range(neighbourhood_size):
                 neighbour = copy.deepcopy(current_individual)
-                # self.mutation(neighbour)
                 neighbour = self.local_search(neighbour, ls_iterations, incDec = False)
                 neighbours.append(neighbour)
 
@@ -159,7 +160,7 @@ class GA:
         for _ in range(iterations):
             neighbour = copy.deepcopy(best_solution)
             randInd = random.randint(0, len(neighbour.get_chromosome()) - 1)
-            rand = random.randint(0, 5)
+            rand = random.randint(0, 10)
 
             if incDec:
                 neighbour.get_chromosome()[randInd] -= rand
@@ -196,7 +197,6 @@ class GA:
         return best
 
     def otsu_within_class_variance(self, thresholds):
-        thresholds = [0] + thresholds + [len(self.hist) - 1]
         total_weight = np.sum(self.hist)
         within_class_variance = 0
 
@@ -220,7 +220,6 @@ class GA:
         return within_class_variance
 
     def otsu_between_class_variance(self, thresholds):
-        thresholds = [0] + thresholds + [len(self.hist) - 1]
         total_mean = np.sum([i * self.hist[i] for i in range(len(self.hist))])
         total_weight = np.sum(self.hist)
         between_class_variance = 0
@@ -249,7 +248,6 @@ class GA:
         return fitness_value
     
     def kapur_entropy(self, thresholds):
-        thresholds = [0] + thresholds + [len(self.hist) - 1]
         total_pixels = np.sum(self.hist)
         entropies = 0
 
@@ -285,7 +283,7 @@ class GA:
     
     def apply_thresholds(self, thresholds):
         # Add boundaries to the thresholds list
-        thresholds = [0] + thresholds + [256]
+        thresholds = thresholds
         output_image = np.zeros_like(self.image)
         
         # Compute intensity levels to assign for each thresholded region
@@ -314,6 +312,9 @@ class GA:
 
     # Inside the GA class's ga() function
     def ga(self):
+
+        print(self.kapur_entropy([44,86,127,174,208]))
+        exit()
         population = self.initialize_population()
         best_individual = None
 

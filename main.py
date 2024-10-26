@@ -8,7 +8,7 @@ def main(params):
     best_runs_image = None
     best_runs_fitness = 0
     best_individual = None
-    for _ in range(10):
+    for _ in range(1):
         ga = GA.GA(params)
         obj = ga.ga()
 
@@ -43,7 +43,7 @@ if __name__ == "__main__":
             {
                 "POPULATION_SIZE": 50, "MAX_GENERATIONS": 100, "CROSSOVER_RATE": 0.75, "MUTATION_RATE": 0.3, 
                 "ELITE_SIZE": 0.3, "NO_IMPROVEMENT_THRESHOLD": 3, "TOURNAMENT_SIZE": 0.15, "IMAGE_PATH": "./images/Medical images/022.png", 
-                "SEED": 0, "K_THRESHOLD": 2, "FITNESS_FUNCTION": "kapur_entropy"
+                "SEED": 0, "K_THRESHOLD": 2, "FITNESS_FUNCTION": "kapur_6entropy"
             }
         ]
     seed_str = input("Enter a seed (or press Enter to use a random seed): ")
