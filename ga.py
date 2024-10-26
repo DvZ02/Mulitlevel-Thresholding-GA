@@ -84,7 +84,7 @@ class GA:
 
             for _ in range(neighbourhood_size):
                 neighbour = copy.deepcopy(current_individual)
-                neighbour.set_chromosome(self.mutation(neighbour).get_chromosome())
+                self.mutation(neighbour)
                 neighbours.append(neighbour)
 
             for neighbour in neighbours:
@@ -109,9 +109,9 @@ class GA:
                         tabu_list.pop(0)
                     break
                     
-            if ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and best_neighbour.get_fitness() > current_individual.get_fitness()) or (self.fitness_function == 'otsu_within_class_variance' and best_neighbour.get_fitness() < current_individual.get_fitness()):
+            if self.better_fitness(best_neighbour, current_individual):
                 current_individual = best_neighbour
-                if ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and current_individual.get_fitness() > best_individual.get_fitness()) or (self.fitness_function == 'otsu_within_class_variance' and current_individual.get_fitness() < best_individual.get_fitness()):
+                if self.better_fitness(current_individual, best_individual):
                     best_individual = copy.deepcopy(current_individual)
     
         return best_individual
@@ -120,16 +120,15 @@ class GA:
     def ILS_1(self, individual, num_iterations = 30):
 
         best_individual = self.local_search(individual, incDec = False)
-        best_score = best_individual.get_fitness()
 
         for iteration in range(num_iterations):
 
             perturbed_solution = self.mutation(best_individual)
+
             improved_solution = self.local_search(perturbed_solution, incDec = False) 
 
-            if ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and improved_solution.get_fitness() > best_score) or (self.fitness_function == 'otsu_within_class_variance' and improved_solution.get_fitness() < best_score):
+            if self.better_fitness(improved_solution, best_individual):
                 best_individual = improved_solution
-                best_score = improved_solution.get_fitness()
         
     
 
@@ -138,16 +137,14 @@ class GA:
     def ILS_2(self, individual, num_iterations = 30):
 
         best_individual = self.local_search(individual, incDec = True)
-        best_score = best_individual.get_fitness()
 
         for iteration in range(num_iterations):
 
             perturbed_solution = self.mutation(best_individual)
             improved_solution = self.local_search(perturbed_solution, incDec = True)
 
-            if ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and improved_solution.get_fitness() > best_score) or (self.fitness_function == 'otsu_within_class_variance' and improved_solution.get_fitness() < best_score):
+            if self.better_fitness(improved_solution, best_individual):
                 best_individual = improved_solution
-                best_score = improved_solution.get_fitness()
         
     
 
@@ -156,18 +153,15 @@ class GA:
     def local_search(self, solution, incDec):
         best_solution = copy.deepcopy(solution)
         self.calculate_fitness_wrapper(best_solution)
-        best_score = best_solution.get_fitness()
 
         # for _ in range(iterations):
+        neighbour = copy.deepcopy(best_solution)
+        randInd = random.randint(0, len(neighbour.get_chromosome()) - 1)
+        rand = random.randint(0, 10)
+
         if incDec:
-            neighbour = copy.deepcopy(best_solution)
-            randInd = random.randint(0, len(neighbour.get_chromosome()) - 1)
-            rand = random.randint(0, 10)
             neighbour.get_chromosome()[randInd] -= rand
         else:
-            neighbour = copy.deepcopy(best_solution)
-            randInd = random.randint(0, len(neighbour.get_chromosome()) - 1)
-            rand = random.randint(0, 10)
             neighbour.get_chromosome()[randInd] += rand
         
         for i in range(len(neighbour.get_chromosome())):
@@ -178,14 +172,10 @@ class GA:
 
         self.calculate_fitness_wrapper(neighbour)
 
-        if ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and neighbour.get_fitness() > best_score) or (self.fitness_function == 'otsu_within_class_variance' and neighbour.get_fitness() < best_score):
+        if self.better_fitness(neighbour, best_solution):
             best_solution = neighbour
-            best_score = neighbour.get_fitness()
 
         return best_solution
-    
-    
-    
     
     def mutation(self, individual):
         old_chromosome = copy.deepcopy(individual.get_chromosome())
@@ -199,7 +189,7 @@ class GA:
         tournament = random.sample(population, int(len(population) * self.TOURNAMENT_SIZE))
         best = None
         for t in tournament:
-            if best == None or ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and t.get_fitness() > best.get_fitness()) or (self.fitness_function == 'otsu_within_class_variance' and t.get_fitness() < best.get_fitness()):
+            if best == None or self.better_fitness(t, best):
                 best = t
         return best
 
@@ -287,6 +277,11 @@ class GA:
         if individual.get_fitness() == -1:  # Only evaluate if fitness is not set
             individual.set_fitness(self.calculate_fitness(individual.get_chromosome()))
         return individual
+    
+    def better_fitness(self, ind_1, ind_2):
+        if ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and ind_1.get_fitness() > ind_2.get_fitness()) or (self.fitness_function == 'otsu_within_class_variance' and ind_1.get_fitness() < ind_2.get_fitness()):
+            return True
+        return False
 
     # Inside the GA class's ga() function
     def ga(self):
@@ -296,7 +291,7 @@ class GA:
         # Initialize fitness and tracking lists
         for individual in population:
             self.calculate_fitness_wrapper(individual)
-            if best_individual == None or ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and individual.get_fitness() > best_individual.get_fitness()) or (self.fitness_function == 'otsu_within_class_variance' and individual.get_fitness() < best_individual.get_fitness()):
+            if best_individual == None or self.better_fitness(individual, best_individual):
                 best_individual = individual
 
         avg_fitness_list = [np.mean([ind.get_fitness() for ind in population])]
@@ -349,7 +344,7 @@ class GA:
             # Determine the best individual
             prev_best_individual = best_individual
             for individual in population:
-                if ((self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'otsu_between_class_variance') and individual.get_fitness() > best_individual.get_fitness()) or (self.fitness_function == 'otsu_within_class_variance' and individual.get_fitness() < best_individual.get_fitness()):
+                if self.better_fitness(individual, best_individual):
                     best_individual = individual
 
             if prev_best_individual == best_individual:
