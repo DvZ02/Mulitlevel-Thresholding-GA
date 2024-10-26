@@ -369,9 +369,22 @@ class GA:
             plt.draw()
             plt.pause(0.1)
 
+        output_image = self.apply_thresholds(best_individual.get_chromosome())
         print("Best individual: ", best_individual.get_chromosome())
         print("Best fitness: ", best_individual.get_fitness())
-        cv.imwrite("output.jpg", self.apply_thresholds(best_individual.get_chromosome()))
+        cv.imwrite("output.jpg", output_image)
+
+        # create a new plot with a histogram showing the values of best individuals pixel intensities with the thresholds marked and applied to the image
+        plt.figure()
+        plt.hist(self.image.ravel(), 256, [0, 256])
+        for threshold in best_individual.get_chromosome():
+            plt.axvline(x=threshold, color='r')
+        plt.title("Histogram of pixel intensities with thresholds marked")
+        plt.xlabel("Pixel intensity")
+        plt.ylabel("Frequency")
+        plt.show()
+
+        
 
         plt.ioff()  # Turn off interactive mode
         plt.show()  # Keep the plot open after the GA finishes
