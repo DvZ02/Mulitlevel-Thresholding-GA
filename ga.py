@@ -249,17 +249,34 @@ class GA:
     
     def kapur_entropy(self, thresholds):
         total_pixels = np.sum(self.hist)
-        entropies = 0
+        
+        # Normalize the histogram (compute probabilities)
+        probabilities = self.hist / total_pixels
+        
+        total_entropy = 0.0
+        
+        # Iterate through regions defined by thresholds
+        for i in range(len(thresholds) + 1):
+            region_entropy = 0.0
+            region_sum = 0.0
+            
+            # Define region boundaries
+            start = 0 if i == 0 else thresholds[i - 1] + 1  # Start of region
+            end = len(probabilities) - 1 if i == len(thresholds) else thresholds[i]  # End of region
+            
+            # Calculate omega (sum of probabilities for the region)
+            for t in range(start, end + 1):
+                region_sum += probabilities[t]
+            
+            # Calculate the entropy for the region
+            for t in range(start, end + 1):
+                if probabilities[t] > 0 and region_sum > 0:
+                    region_entropy -= (probabilities[t] / region_sum) * np.log(probabilities[t] / region_sum)
+            
+            # Add the region entropy to the total entropy
+            total_entropy += region_entropy
 
-        for i in range(len(thresholds) - 1):
-            start = thresholds[i]
-            end = thresholds[i + 1]
-            prob = self.hist[start:end + 1] / total_pixels
-            prob = prob[prob > 0]
-            entropy = -np.sum(prob * np.log(prob))
-            entropies += entropy
-
-        return entropies
+        return total_entropy
     
     def calculate_fitness(self, thresholds):
         chromosome_key = tuple(thresholds)
