@@ -330,8 +330,6 @@ class GA:
     # Inside the GA class's ga() function
     def ga(self):
 
-        print(self.kapur_entropy([44,86,127,174,208]))
-        exit()
         population = self.initialize_population()
         best_individual = None
 
