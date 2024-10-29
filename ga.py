@@ -86,6 +86,8 @@ class GA:
                 new_elite.append(self.ILS_2(ind))
             elif self.currentMutationOp == 2:
                 new_elite.append(self.Tabu(ind))
+            elif self.currentMutationOp == 3:
+                new_elite.append(self.SA(ind))
             # elif self.currentMutationOp == 3:
             #     elite[elite.index(ind)] = self.mutation(ind) 
         return new_elite  
@@ -166,6 +168,34 @@ class GA:
     
 
         return best_individual
+    
+    # def perturb_thresholds(self, individual):
+    #     new_thresholds = copy.deepcopy(individual.get_chromosome())
+    #     i = random.randint(0, self.K_THRESHOLD - 1)
+    #     flag = True
+    #     while flag:
+    #         temp = random.randint(0, 256)
+    #         if(temp not in new_thresholds):
+    #             new_thresholds[i] = temp
+    #             flag = False
+    #     individual.set_chromosome(new_thresholds)
+    #     return individual
+
+    def SA(self, individual, initial_temp = 1000, final_temp = 0.1, cooling_rate = 0.9, temp_iterations = 5):
+        T = initial_temp
+        best_individual = copy.deepcopy(individual)
+        self.calculate_fitness_wrapper(best_individual)
+
+        while T > final_temp:
+            for _ in range(temp_iterations):
+                new_individual = self.mutation(best_individual)
+                self.calculate_fitness_wrapper(new_individual)
+                if self.better_fitness(new_individual, best_individual) or random.random() < np.exp((new_individual.get_fitness() - best_individual.get_fitness()) / T):
+                    best_individual = new_individual
+            T *= cooling_rate
+
+        return best_individual
+    
 
     def local_search(self, solution, iterations, ILS):
         best_solution = copy.deepcopy(solution)
@@ -314,19 +344,18 @@ class GA:
         return fitness_value
     
     def apply_thresholds(self, thresholds):
-        thresholds = sorted(thresholds)
-        # Add boundaries to the thresholds list
+        thresholds = [0] + sorted(thresholds) + [255]
         output_image = np.zeros_like(self.image)
-        
-        # Compute intensity levels to assign for each thresholded region
+
         num_levels = len(thresholds) - 1
         intensity_step = 255 // (num_levels - 1)
-        
-        # Apply each threshold range as a mask
+
         for i in range(num_levels):
             mask = (self.image >= thresholds[i]) & (self.image < thresholds[i + 1])
-            output_image[mask] = thresholds[i]
-        
+            output_image[mask] = i * intensity_step
+
+        output_image[self.image == 255] = 255
+
         return output_image
 
         # Define a helper function for fitness calculation
@@ -385,7 +414,7 @@ class GA:
                 avg /= len(elite)
 
                 print("Average before: ", avg)
-                self.currentMutationOp = random.randint(0, 2)
+                self.currentMutationOp = random.randint(0, 3)
                 elite = self.VNS(elite)
                 same_best_counter = 0
 
