@@ -8,11 +8,12 @@ def main(params):
     best_runs_image = None
     best_runs_fitness = 0
     best_individual = None
-    for _ in range(1):
+    for _ in range(10):
+        params["SEED"] = int(time.time())
         ga = GA.GA(params)
         obj = ga.ga()
 
-        if best_individual == None or obj.get_fitness() > best_runs_fitness:
+        if best_individual == None or obj['best_individual'].get_fitness() > best_runs_fitness:
             best_runs_image = obj['output_image']
             best_runs_fitness = obj['best_individual'].get_fitness()
             best_individual = obj['best_individual']
@@ -41,8 +42,8 @@ def main(params):
 if __name__ == "__main__":
     params = [
             {
-                "POPULATION_SIZE": 50, "MAX_GENERATIONS": 100, "CROSSOVER_RATE": 0.75, "MUTATION_RATE": 0.3, 
-                "ELITE_SIZE": 0.3, "NO_IMPROVEMENT_THRESHOLD": 3, "TOURNAMENT_SIZE": 0.15, "IMAGE_PATH": "./images/Medical images/022.png", 
+                "POPULATION_SIZE": 50, "MAX_GENERATIONS": 100, "CROSSOVER_RATE": 0.8, "MUTATION_RATE": 0.1, 
+                "ELITE_SIZE": 0.3, "NO_IMPROVEMENT_THRESHOLD": 8, "TOURNAMENT_SIZE": 0.15, "IMAGE_PATH": "./images/Medical images/022.png", 
                 "SEED": 0, "K_THRESHOLD": 2, "FITNESS_FUNCTION": "kapur_entropy"
             }
         ]

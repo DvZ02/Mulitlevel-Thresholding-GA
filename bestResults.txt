@@ -1,0 +1,2 @@
+Best thresholds: [18, 114, 185]
+Best fitness: 11.733280904522735

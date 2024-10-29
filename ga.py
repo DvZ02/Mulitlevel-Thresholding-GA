@@ -64,7 +64,7 @@ class GA:
             child2 = parent2.get_chromosome()[:crossover_point] + parent1.get_chromosome()[crossover_point:]
             return Individual(chromosome=child1, K_THRESHOLD=self.K_THRESHOLD), Individual(chromosome=child2, K_THRESHOLD=self.K_THRESHOLD)
         return parent1, parent2    
-
+        
     # Implement new mutation
     def hybridMutation(self, individual):
         if random.random() < self.MUTATION_RATE:
@@ -75,9 +75,23 @@ class GA:
             elif self.currentMutationOp == 2:
                 return self.Tabu(individual)
             # elif self.currentMutationOp == 3:
-            #     return self.mutation(individual)
+            #     return self.mutation(individual)     
+
+    def VNS(self, elite):
+        new_elite = []
+        for ind in elite:
+            if self.currentMutationOp == 0:
+                new_elite.append(self.ILS_1(ind))
+            elif self.currentMutationOp == 1:
+                new_elite.append(self.ILS_2(ind))
+            elif self.currentMutationOp == 2:
+                new_elite.append(self.Tabu(ind))
+            # elif self.currentMutationOp == 3:
+            #     elite[elite.index(ind)] = self.mutation(ind) 
+        return new_elite  
     
-    def Tabu(self, individual, tabu_size=5, max_iter=30, neighbourhood_size=10, ls_iterations = 10):
+
+    def Tabu(self, individual, tabu_size=5, max_iter=30, neighbourhood_size=10, ls_iterations = 5):
         best_individual = individual
         current_individual = copy.deepcopy(individual)
         tabu_list = []
@@ -87,7 +101,7 @@ class GA:
 
             for _ in range(neighbourhood_size):
                 neighbour = copy.deepcopy(current_individual)
-                neighbour = self.local_search(neighbour, ls_iterations, incDec = False)
+                neighbour = self.local_search(neighbour, ls_iterations, ILS = random.choice([True, False]))
                 neighbours.append(neighbour)
 
             for neighbour in neighbours:
@@ -120,15 +134,15 @@ class GA:
         return best_individual
                 
     
-    def ILS_1(self, individual, ls_iterations = 10, num_iterations = 30):
+    def ILS_1(self, individual, ls_iterations = 5, num_iterations = 30):
 
-        best_individual = self.local_search(individual, ls_iterations, incDec = False)
+        best_individual = self.local_search(individual, ls_iterations, ILS = False)
 
         for iteration in range(num_iterations):
 
             perturbed_solution = self.mutation(best_individual)
 
-            improved_solution = self.local_search(perturbed_solution,  ls_iterations, incDec = False) 
+            improved_solution = self.local_search(perturbed_solution,  ls_iterations, ILS = False) 
 
             if self.better_fitness(improved_solution, best_individual):
                 best_individual = improved_solution
@@ -137,14 +151,14 @@ class GA:
 
         return best_individual
     
-    def ILS_2(self, individual, ls_iterations = 10, num_iterations = 30):
+    def ILS_2(self, individual, ls_iterations = 5, num_iterations = 30):
 
-        best_individual = self.local_search(individual, ls_iterations, incDec = True)
+        best_individual = self.local_search(individual, ls_iterations, ILS = True)
 
         for iteration in range(num_iterations):
 
             perturbed_solution = self.mutation(best_individual)
-            improved_solution = self.local_search(perturbed_solution, ls_iterations, incDec = True)
+            improved_solution = self.local_search(perturbed_solution, ls_iterations, ILS = True)
 
             if self.better_fitness(improved_solution, best_individual):
                 best_individual = improved_solution
@@ -153,30 +167,31 @@ class GA:
 
         return best_individual
 
-    def local_search(self, solution, iterations, incDec):
+    def local_search(self, solution, iterations, ILS):
         best_solution = copy.deepcopy(solution)
         self.calculate_fitness_wrapper(best_solution)
 
         for _ in range(iterations):
             neighbour = copy.deepcopy(best_solution)
             randInd = random.randint(0, len(neighbour.get_chromosome()) - 1)
-            rand = random.randint(0, 10)
+            incDec = random.choice([True, False])
+
+            if ILS:
+                adjustment = 1
+            else:
+                adjustment = 5
 
             if incDec:
-                neighbour.get_chromosome()[randInd] -= rand
+                neighbour.get_chromosome()[randInd] += adjustment
             else:
-                neighbour.get_chromosome()[randInd] += rand
+                neighbour.get_chromosome()[randInd] -= adjustment
             
-            for i in range(len(neighbour.get_chromosome())):
-                if neighbour.get_chromosome()[i] < 0:
-                    neighbour.get_chromosome()[i] = 0
-                if neighbour.get_chromosome()[i] > 255:
-                    neighbour.get_chromosome()[i] = 255
+            neighbour.set_chromosome([min(max(gene, 0), 255) for gene in neighbour.get_chromosome()])
 
             self.calculate_fitness_wrapper(neighbour)
 
             if self.better_fitness(neighbour, best_solution):
-                best_solution = neighbour
+                return neighbour
 
         return best_solution
     
@@ -299,8 +314,8 @@ class GA:
         return fitness_value
     
     def apply_thresholds(self, thresholds):
+        thresholds = sorted(thresholds)
         # Add boundaries to the thresholds list
-        thresholds = thresholds
         output_image = np.zeros_like(self.image)
         
         # Compute intensity levels to assign for each thresholded region
@@ -310,7 +325,7 @@ class GA:
         # Apply each threshold range as a mask
         for i in range(num_levels):
             mask = (self.image >= thresholds[i]) & (self.image < thresholds[i + 1])
-            output_image[mask] = intensity_step * i
+            output_image[mask] = thresholds[i]
         
         return output_image
 
@@ -329,9 +344,6 @@ class GA:
 
     # Inside the GA class's ga() function
     def ga(self):
-
-        print(self.kapur_entropy([44,86,127,174,208]))
-        exit()
         population = self.initialize_population()
         best_individual = None
 
@@ -359,21 +371,37 @@ class GA:
         # Generations loop with threading for fitness evaluation
         same_best_counter = 0
         for generation in range(self.MAX_GENERATIONS):
-            print("Generation ", generation)
-
             # Elitism
             if self.fitness_function == 'otsu_within_class_variance' or self.fitness_function == 'otsu_total_class_variance' or self.fitness_function == 'kapur_entropy':
                 elite = sorted(population, key=lambda x: x.get_fitness(), reverse=True)[:int(self.POPULATION_SIZE * self.ELITE_SIZE)]
             else:
                 elite = sorted(population, key=lambda x: x.get_fitness())[:int(self.POPULATION_SIZE * self.ELITE_SIZE)]
 
+            if same_best_counter == self.NO_IMPROVEMENT_THRESHOLD:
+                # average of elite before
+                avg = 0
+                for ind in elite:
+                    avg += ind.get_fitness()
+                avg /= len(elite)
+
+                print("Average before: ", avg)
+                self.currentMutationOp = random.randint(0, 2)
+                elite = self.VNS(elite)
+                same_best_counter = 0
+
+                avg = 0
+                for ind in elite:
+                    avg += ind.get_fitness()
+                avg /= len(elite)
+                print("Average after: ", avg)
+
             new_population = []
             while len(new_population) + len(elite) < self.POPULATION_SIZE:
-                parent1 = self.tournament_selection(elite)
+                parent1 = self.tournament_selection(population)
                 parent2 = self.tournament_selection(population)
                 child1, child2 = self.crossover(parent1, parent2)
-                child1 = self.hybridMutation(child1)
-                child2 = self.hybridMutation(child2)
+                child1 = self.mutation(child1)
+                child2 = self.mutation(child2)
                 if child1:
                     new_population.append(child1)
                 if child2:
@@ -397,11 +425,7 @@ class GA:
             if prev_best_individual == best_individual:
                 same_best_counter += 1
             else:
-                print("Generation: ", generation, "Best fitness: ", best_individual.get_fitness())
-                same_best_counter = 0
-
-            if same_best_counter == self.NO_IMPROVEMENT_THRESHOLD:
-                self.currentMutationOp = random.randint(0, 2)
+                print("Generation: ", generation, "Best fitness: ", best_individual.get_fitness(), best_individual.get_chromosome())
                 same_best_counter = 0
 
             # Update fitness tracking
@@ -418,4 +442,5 @@ class GA:
 
         output_image = self.apply_thresholds(best_individual.get_chromosome())
 
+        plt.close()
         return {"best_individual": best_individual, "output_image": output_image}
