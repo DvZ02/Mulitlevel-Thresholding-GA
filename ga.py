@@ -12,7 +12,7 @@ class Individual:
     def __init__(self, chromosome=None, hist=None, K_THRESHOLD=None):  # Fix here
         self.chromosome = []
         if hist is not None:
-            self.chromosome = sorted(random.sample(range(1, len(hist) - 1), K_THRESHOLD))
+            self.chromosome = sorted(random.sample(range(0, len(hist) - 1), K_THRESHOLD))
         else:
             self.chromosome = sorted(chromosome)
         self.fitness = -1
@@ -80,16 +80,18 @@ class GA:
     def VNS(self, elite):
         new_elite = []
         for ind in elite:
-            if self.currentMutationOp == 0:
-                new_elite.append(self.ILS_1(ind))
-            elif self.currentMutationOp == 1:
-                new_elite.append(self.ILS_2(ind))
-            elif self.currentMutationOp == 2:
-                new_elite.append(self.Tabu(ind))
-            elif self.currentMutationOp == 3:
-                new_elite.append(self.SA(ind))
+            best_ind = copy.deepcopy(ind)
+            for _ in range(5):
+                best_ind = self.ILS_1(best_ind)
+            for _ in range(5):
+                best_ind = self.ILS_2(best_ind)
+            for _ in range(5):
+                best_ind = self.Tabu(best_ind)
+            for _ in range(5):
+                best_ind = self.SA(best_ind)
             # elif self.currentMutationOp == 3:
-            #     elite[elite.index(ind)] = self.mutation(ind) 
+            #     elite[elite.index(ind)] = self.mutation(ind)
+            new_elite.append(best_ind) 
         return new_elite  
     
 
@@ -229,7 +231,7 @@ class GA:
         old_chromosome = copy.deepcopy(individual.get_chromosome())
         for i in range(len(individual.get_chromosome())):
             if random.random() < self.MUTATION_RATE:
-                old_chromosome[i] = random.randint(1, len(self.hist) - 1) 
+                old_chromosome[i] = random.randint(0, len(self.hist) - 1) 
         individual.set_chromosome(old_chromosome)
         return individual
     
@@ -346,14 +348,14 @@ class GA:
     def apply_thresholds(self, thresholds):
         thresholds = [0] + sorted(thresholds) + [255]
         output_image = np.zeros_like(self.image)
-
+        
         num_levels = len(thresholds) - 1
         intensity_step = 255 // (num_levels - 1)
-
+        
         for i in range(num_levels):
             mask = (self.image >= thresholds[i]) & (self.image < thresholds[i + 1])
             output_image[mask] = i * intensity_step
-
+        
         output_image[self.image == 255] = 255
 
         return output_image
