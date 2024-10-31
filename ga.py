@@ -387,15 +387,15 @@ class GA:
         avg_fitness_list = [np.mean([ind.get_fitness() for ind in population])]
         best_fitness_list = [best_individual.get_fitness()]
 
-        plt.ion()
-        fig, ax = plt.subplots()
-        avg_line, = ax.plot([], [], label="Average Fitness")
-        best_line, = ax.plot([], [], label="Best Fitness")
-        ax.relim()
-        ax.autoscale_view(True, True, True)
-        ax.set_xlabel('Generation')
-        ax.set_ylabel('Fitness')
-        ax.legend()
+        # plt.ion()
+        # fig, ax = plt.subplots()
+        # avg_line, = ax.plot([], [], label="Average Fitness")
+        # best_line, = ax.plot([], [], label="Best Fitness")
+        # ax.relim()
+        # ax.autoscale_view(True, True, True)
+        # ax.set_xlabel('Generation')
+        # ax.set_ylabel('Fitness')
+        # ax.legend()
 
         same_best_counter = 0
 
@@ -463,13 +463,13 @@ class GA:
             avg_fitness_list.append(np.mean([ind.get_fitness() for ind in population]))
             best_fitness_list.append(best_individual.get_fitness())
 
-            avg_line.set_data(range(len(avg_fitness_list)), avg_fitness_list)
-            best_line.set_data(range(len(best_fitness_list)), best_fitness_list)
-            ax.relim()
-            ax.autoscale_view(True, True, True)
+            # avg_line.set_data(range(len(avg_fitness_list)), avg_fitness_list)
+            # best_line.set_data(range(len(best_fitness_list)), best_fitness_list)
+            # ax.relim()
+            # ax.autoscale_view(True, True, True)
 
-            plt.draw()
-            plt.pause(0.1)
+            # plt.draw()
+            # plt.pause(0.1)
 
         output_image = self.apply_thresholds(best_individual.get_chromosome())
 

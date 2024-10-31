@@ -5,10 +5,10 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 import numpy as np
 
-def save_output(thresholds, image, image_name, level, run):
+def save_output(param, thresholds, image, image_name, level, run):
     regions = np.digitize(image, bins=thresholds)
 
-    plt.imsave(f"./output/{run}/{level}/{image_name}", regions, cmap='gray')
+    plt.imsave(f"./output/{param}/{run}/{level}/{image_name}", regions, cmap='gray')
     # produced = cv.imread(f"./output/{image_name}_{level}.png", cv.IMREAD_GRAYSCALE)
 
     fig, ax = plt.subplots(1, 3, figsize=(10, 3.5))
@@ -27,9 +27,9 @@ def save_output(thresholds, image, image_name, level, run):
     ax[2].axis('off')
 
     plt.subplots_adjust()
-    plt.savefig(f"./output/{run}/{level}/plot_{image_name}")
+    plt.savefig(f"./output/{param}/{run}/{level}/plot_{image_name}")
 
-def main(params, img_name, run):
+def main(params, img_name, run, param):
 
     best_runs_image = None
     best_runs_fitness = 0
@@ -46,7 +46,7 @@ def main(params, img_name, run):
 
     print("Best individual: ", best_individual.get_chromosome())
     print("Best fitness: ", best_individual.get_fitness())
-    save_output(best_individual.get_chromosome(), cv.imread(params["IMAGE_PATH"], cv.IMREAD_GRAYSCALE), img_name, params["K_THRESHOLD"], run)
+    save_output(param, best_individual.get_chromosome(), cv.imread(params["IMAGE_PATH"], cv.IMREAD_GRAYSCALE), img_name, params["K_THRESHOLD"], run)
     # cv.imwrite("output.jpg", best_runs_image)
 
     # plt.figure()
@@ -105,23 +105,29 @@ if __name__ == "__main__":
     else:
         params[0]["K_THRESHOLD"] = int(k_threshold)
     
-    for run in range(1, 11):
-        for i in range(0, 10):
-            params[0]["IMAGE_PATH"] = f"./images/Medical images/{image_names[i]}"
-            for j in range(2, 6):
-                params[0]["K_THRESHOLD"] = j
-                main(params[0], img_name=image_names[i], run=run)
-            # img = cv.imread(params[0]["IMAGE_PATH"], cv.IMREAD_GRAYSCALE)
-            # save_output([93, 183], img, "output", params[0]["K_THRESHOLD"], i+1)
+    for param in range(0, 4):
+        print(f"====== Running for parameter set: {param+1} ======")
+        for run in range(1, 11):
+            print(f"====== Run: {run} ======")
+            for i in range(0, 10):
+                print(f"====== Running level k=2 to k=5 for Image: {image_names[i]} ======")
+                params[param]["IMAGE_PATH"] = f"./images/Medical images/{image_names[i]}"
+                for j in range(2, 6):
+                    params[param]["K_THRESHOLD"] = j
+                    main(params[param], img_name=image_names[i], run=run, param=param+1)
+
     # main(params[0])
     # img = cv.imread(params[0]["IMAGE_PATH"], cv.IMREAD_GRAYSCALE)
     # save_output([93, 183], img, "output", params[0]["K_THRESHOLD"])
 
-    # for i in range(0, 30):
+    # for i in range(0, 4):
     #     directory_path = f"./output/{i+1}/"
     #     os.makedirs(directory_path, exist_ok=True)
-    #     for j in range(2, 6):
+    #     for j in range(1, 11):
     #         directory_path = f"./output/{i+1}/{j}"
     #         os.makedirs(directory_path, exist_ok=True)
+    #         for k in range(2, 6):
+    #             directory_path = f"./output/{i+1}/{j}/{k}"
+    #             os.makedirs(directory_path, exist_ok=True)
 
 
