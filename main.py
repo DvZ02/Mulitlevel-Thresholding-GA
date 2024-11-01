@@ -105,9 +105,9 @@ if __name__ == "__main__":
     else:
         params[0]["K_THRESHOLD"] = int(k_threshold)
     
-    for param in range(0, 4):
+    for param in range(1, 4):
         print(f"====== Running for parameter set: {param+1} ======")
-        for run in range(1, 11):
+        for run in range(1, 6):
             print(f"====== Run: {run} ======")
             for i in range(0, 10):
                 print(f"====== Running level k=2 to k=5 for Image: {image_names[i]} ======")
