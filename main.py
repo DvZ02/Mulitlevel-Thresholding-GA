@@ -5,10 +5,17 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 import numpy as np
 
+def save_results(thresholds, value, method, image_name, level, seed, run):
+    with open("results.txt", 'a') as file:
+        file.write(f"Method: {method}\nImage: {image_name}\nLevel: {level}\nThresholds: {thresholds}\nValue: {value}\n")
+        file.write(f"Seed: {seed}\nRun: {run}\n")
+        file.write("-------------------------------------------\n")
+        print("-------------------------------------------")
+
 def save_output(param, thresholds, image, image_name, level, run):
     regions = np.digitize(image, bins=thresholds)
 
-    plt.imsave(f"./output/{param}/{run}/{level}/{image_name}", regions, cmap='gray')
+    plt.imsave(f"./final/{run}/{level}/{image_name}", regions, cmap='gray')
     # produced = cv.imread(f"./output/{image_name}_{level}.png", cv.IMREAD_GRAYSCALE)
 
     fig, ax = plt.subplots(1, 3, figsize=(10, 3.5))
@@ -27,7 +34,7 @@ def save_output(param, thresholds, image, image_name, level, run):
     ax[2].axis('off')
 
     plt.subplots_adjust()
-    plt.savefig(f"./output/{param}/{run}/{level}/plot_{image_name}")
+    plt.savefig(f"./final/{run}/{level}/plot_{image_name}")
 
 def main(params, img_name, run, param):
 
@@ -47,6 +54,7 @@ def main(params, img_name, run, param):
     print("Best individual: ", best_individual.get_chromosome())
     print("Best fitness: ", best_individual.get_fitness())
     save_output(param, best_individual.get_chromosome(), cv.imread(params["IMAGE_PATH"], cv.IMREAD_GRAYSCALE), img_name, params["K_THRESHOLD"], run)
+    save_results(best_individual.get_chromosome(), best_individual.get_fitness(), params["FITNESS_FUNCTION"], img_name, params["K_THRESHOLD"], params["SEED"], run)
     # cv.imwrite("output.jpg", best_runs_image)
 
     # plt.figure()
@@ -105,9 +113,10 @@ if __name__ == "__main__":
     else:
         params[0]["K_THRESHOLD"] = int(k_threshold)
     
-    for param in range(1, 4):
+    for param in range(0, 1):
         print(f"====== Running for parameter set: {param+1} ======")
-        for run in range(1, 6):
+        for run in range(1, 31):
+            params[param]["SEED"] = int(time.time())
             print(f"====== Run: {run} ======")
             for i in range(0, 10):
                 print(f"====== Running level k=2 to k=5 for Image: {image_names[i]} ======")
@@ -120,14 +129,11 @@ if __name__ == "__main__":
     # img = cv.imread(params[0]["IMAGE_PATH"], cv.IMREAD_GRAYSCALE)
     # save_output([93, 183], img, "output", params[0]["K_THRESHOLD"])
 
-    # for i in range(0, 4):
-    #     directory_path = f"./output/{i+1}/"
+    # for j in range(1, 31):
+    #     directory_path = f"./final/{j}"
     #     os.makedirs(directory_path, exist_ok=True)
-    #     for j in range(1, 11):
-    #         directory_path = f"./output/{i+1}/{j}"
+    #     for k in range(2, 6):
+    #         directory_path = f"./final/{j}/{k}"
     #         os.makedirs(directory_path, exist_ok=True)
-    #         for k in range(2, 6):
-    #             directory_path = f"./output/{i+1}/{j}/{k}"
-    #             os.makedirs(directory_path, exist_ok=True)
 
 

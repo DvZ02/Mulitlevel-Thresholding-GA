@@ -1,0 +1,6512 @@
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [94, 183]
+Value: 9.21548426039371
+Seed: 1730467171
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [56, 112, 185]
+Value: 11.731798240853774
+Seed: 1730467371
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [18, 31, 33, 218]
+Value: 13.949493058910852
+Seed: 1730467569
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [45, 86, 128, 174, 210]
+Value: 16.08703009878852
+Seed: 1730467774
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [108, 184]
+Value: 9.264473780241438
+Seed: 1730467975
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [55, 117, 184]
+Value: 11.682746214048908
+Seed: 1730468172
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [37, 79, 126, 175]
+Value: 13.934667238168547
+Seed: 1730468371
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [25, 54, 60, 160, 212]
+Value: 16.01006639997741
+Seed: 1730468577
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [242, 255]
+Value: 9.258523529390335
+Seed: 1730468768
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [67, 82, 187]
+Value: 11.577868009052175
+Seed: 1730468953
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [44, 92, 140, 248]
+Value: 13.85927724257081
+Seed: 1730469157
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [3, 125, 156, 166, 189]
+Value: 16.032385423918594
+Seed: 1730469368
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [165, 195]
+Value: 9.244700510400532
+Seed: 1730469553
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [28, 145, 240]
+Value: 11.579543006070514
+Seed: 1730469741
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [37, 51, 167, 207]
+Value: 13.744132031597362
+Seed: 1730469938
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [4, 64, 65, 78, 252]
+Value: 15.87676091968961
+Seed: 1730470133
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [121, 186]
+Value: 9.33670505368299
+Seed: 1730470330
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [97, 152, 225]
+Value: 11.66906748726517
+Seed: 1730470520
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [61, 133, 190, 209]
+Value: 13.77787846648896
+Seed: 1730470724
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [62, 96, 108, 175, 203]
+Value: 15.884047918379913
+Seed: 1730470937
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [54, 179]
+Value: 9.420503004112886
+Seed: 1730471120
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [130, 140, 187]
+Value: 11.693511579951416
+Seed: 1730471298
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [76, 170, 186, 216]
+Value: 13.839466330563006
+Seed: 1730471499
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [80, 113, 169, 170, 234]
+Value: 15.851582358152445
+Seed: 1730471687
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [207, 210]
+Value: 9.190979836936837
+Seed: 1730471866
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [39, 102, 176]
+Value: 11.426060981160195
+Seed: 1730472052
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [68, 99, 216, 241]
+Value: 13.515559408131589
+Seed: 1730472246
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [39, 67, 118, 138, 185]
+Value: 15.629394040579465
+Seed: 1730472463
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [109, 172]
+Value: 8.790574485478263
+Seed: 1730472646
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [105, 172, 217]
+Value: 11.163966721920705
+Seed: 1730472831
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [18, 125, 135, 185]
+Value: 13.297387969165987
+Seed: 1730473015
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [61, 165, 205, 215, 218]
+Value: 15.456578424748969
+Seed: 1730473227
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [61, 172]
+Value: 8.528335149175554
+Seed: 1730473415
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [51, 72, 117]
+Value: 10.927695738806728
+Seed: 1730473607
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [16, 22, 32, 126]
+Value: 13.12838075880899
+Seed: 1730473813
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [95, 102, 143, 178, 244]
+Value: 15.40571837824127
+Seed: 1730474010
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [105, 139]
+Value: 8.147556392162752
+Seed: 1730474203
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [31, 68, 240]
+Value: 10.60293274876546
+Seed: 1730474385
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [41, 128, 165, 169]
+Value: 13.053653672622264
+Seed: 1730474583
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [0, 12, 56, 100, 180]
+Value: 15.26397554276794
+Seed: 1730474787
+Run: 1
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [95, 178]
+Value: 9.21548426039371
+Seed: 1730474971
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [41, 59, 153]
+Value: 11.73064091005139
+Seed: 1730475175
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [34, 143, 157, 234]
+Value: 13.937764508991755
+Seed: 1730475367
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [11, 159, 168, 174, 249]
+Value: 16.10541101542267
+Seed: 1730475569
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [5, 108]
+Value: 9.264473780241438
+Seed: 1730475746
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [57, 100, 117]
+Value: 11.682327756515921
+Seed: 1730475932
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [199, 245, 246, 249]
+Value: 13.931018008813503
+Seed: 1730476126
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [34, 54, 128, 173, 174]
+Value: 16.029120397778954
+Seed: 1730476338
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [113, 216]
+Value: 9.258523529390335
+Seed: 1730476525
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [16, 72, 162]
+Value: 11.57588732702559
+Seed: 1730476714
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [67, 81, 182, 187]
+Value: 13.861883735840731
+Seed: 1730476915
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [28, 69, 110, 153, 192]
+Value: 16.029694677286955
+Seed: 1730477124
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [61, 206]
+Value: 9.244700510400532
+Seed: 1730477309
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [6, 64, 108]
+Value: 11.579543006070514
+Seed: 1730477497
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [89, 128, 172, 212]
+Value: 13.749081215144347
+Seed: 1730477697
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [28, 34, 78, 186, 226]
+Value: 15.866088088812708
+Seed: 1730477891
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [27, 120]
+Value: 9.33670505368299
+Seed: 1730478078
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [83, 166, 221]
+Value: 11.674459496923618
+Seed: 1730478268
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [133, 133, 158, 170]
+Value: 13.77061170610134
+Seed: 1730478469
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [30, 31, 65, 210, 248]
+Value: 15.902668443188423
+Seed: 1730478666
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [155, 240]
+Value: 9.420503004112886
+Seed: 1730478861
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [89, 104, 170]
+Value: 11.693511579951416
+Seed: 1730479040
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [90, 128, 173, 212]
+Value: 13.834573328202623
+Seed: 1730479235
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [10, 63, 136, 139, 212]
+Value: 15.849023267100781
+Seed: 1730479429
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [111, 168]
+Value: 9.190979836936837
+Seed: 1730479615
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [2, 111, 189]
+Value: 11.426887545838433
+Seed: 1730479812
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [88, 96, 105, 227]
+Value: 13.508021847049033
+Seed: 1730480017
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [1, 27, 88, 96, 112]
+Value: 15.634275197729767
+Seed: 1730480231
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [109, 173]
+Value: 8.790574485478263
+Seed: 1730480410
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [2, 118, 138]
+Value: 11.162417336292593
+Seed: 1730480607
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [16, 95, 172, 255]
+Value: 13.28859632090083
+Seed: 1730480791
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [18, 18, 62, 151, 159]
+Value: 15.438089576869704
+Seed: 1730480998
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [106, 172]
+Value: 8.528335149175554
+Seed: 1730481183
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [115, 189, 200]
+Value: 10.92236738391418
+Seed: 1730481373
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [3, 45, 127, 180]
+Value: 13.13019748472608
+Seed: 1730481580
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [35, 38, 39, 140, 189]
+Value: 15.395709560160068
+Seed: 1730481777
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [96, 228]
+Value: 8.147556392162752
+Seed: 1730481968
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [5, 94, 185]
+Value: 10.600215893944384
+Seed: 1730482164
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [37, 53, 122, 157]
+Value: 13.058672537825448
+Seed: 1730482351
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [42, 77, 178, 191, 209]
+Value: 15.263561731017852
+Seed: 1730482568
+Run: 2
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [64, 153]
+Value: 9.21548426039371
+Seed: 1730482757
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [5, 66, 121]
+Value: 11.733280904522735
+Seed: 1730482953
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [86, 120, 126, 184]
+Value: 13.94606413094625
+Seed: 1730483159
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [9, 41, 57, 129, 140]
+Value: 16.118861201421904
+Seed: 1730483360
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [108, 184]
+Value: 9.264473780241438
+Seed: 1730483553
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [114, 146, 196]
+Value: 11.683467397426469
+Seed: 1730483727
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [103, 130, 180, 250]
+Value: 13.939347074522225
+Seed: 1730483915
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [41, 59, 135, 156, 194]
+Value: 16.034573050672606
+Seed: 1730484128
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [153, 182]
+Value: 9.258523529390335
+Seed: 1730484316
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [24, 34, 204]
+Value: 11.575147871801631
+Seed: 1730484502
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [29, 48, 73, 114]
+Value: 13.86164925326938
+Seed: 1730484709
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [0, 91, 135, 147, 197]
+Value: 16.015120054603894
+Seed: 1730484920
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [143, 184]
+Value: 9.244700510400532
+Seed: 1730485105
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [111, 136, 207]
+Value: 11.571604566965718
+Seed: 1730485286
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [46, 88, 128, 226]
+Value: 13.723372885505801
+Seed: 1730485487
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [42, 67, 79, 216, 248]
+Value: 15.859987586163385
+Seed: 1730485680
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [120, 187]
+Value: 9.33670505368299
+Seed: 1730485866
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [67, 123, 186]
+Value: 11.672863724767065
+Seed: 1730486052
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [128, 207, 211, 234]
+Value: 13.77917417058263
+Seed: 1730486241
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [18, 47, 64, 171, 196]
+Value: 15.89718592973307
+Seed: 1730486432
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [117, 179]
+Value: 9.420503004112886
+Seed: 1730486610
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [8, 60, 71]
+Value: 11.693511579951416
+Seed: 1730486797
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [40, 54, 156, 250]
+Value: 13.841313576404774
+Seed: 1730486993
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [110, 171, 182, 206, 233]
+Value: 15.839757339198023
+Seed: 1730487207
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [24, 168]
+Value: 9.190979836936837
+Seed: 1730487399
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [103, 146, 188]
+Value: 11.426563529345405
+Seed: 1730487596
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [82, 113, 228, 249]
+Value: 13.50524307465477
+Seed: 1730487795
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [20, 89, 120, 168, 180]
+Value: 15.628061082880894
+Seed: 1730488005
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [109, 173]
+Value: 8.790574485478263
+Seed: 1730488189
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [86, 93, 187]
+Value: 11.163966721920705
+Seed: 1730488385
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [41, 170, 210, 241]
+Value: 13.279713717710763
+Seed: 1730488586
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [11, 29, 144, 153, 176]
+Value: 15.458622789069931
+Seed: 1730488781
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [50, 172]
+Value: 8.528335149175554
+Seed: 1730488956
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [3, 98, 188]
+Value: 10.927695738806728
+Seed: 1730489144
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [67, 118, 193, 218]
+Value: 13.130763490168162
+Seed: 1730489340
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [85, 100, 173, 180, 236]
+Value: 15.377828604463204
+Seed: 1730489543
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [105, 146]
+Value: 8.147556392162752
+Seed: 1730489730
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [68, 107, 172]
+Value: 10.60293274876546
+Seed: 1730489891
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [83, 113, 163, 169]
+Value: 13.054935249173095
+Seed: 1730490092
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [39, 55, 78, 204, 247]
+Value: 15.261807490111888
+Seed: 1730490304
+Run: 3
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [95, 182]
+Value: 9.21548426039371
+Seed: 1730490497
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [26, 82, 182]
+Value: 11.731798240853774
+Seed: 1730490689
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [63, 102, 140, 198]
+Value: 13.948147949610352
+Seed: 1730490875
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [26, 69, 74, 147, 235]
+Value: 16.096389987264985
+Seed: 1730491084
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [108, 185]
+Value: 9.264473780241438
+Seed: 1730491274
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [32, 53, 134]
+Value: 11.683467397426469
+Seed: 1730491475
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [50, 76, 167, 243]
+Value: 13.93269785454726
+Seed: 1730491664
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [27, 80, 98, 173, 250]
+Value: 16.046669830344356
+Seed: 1730491876
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [112, 182]
+Value: 9.258523529390335
+Seed: 1730492067
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [60, 131, 195]
+Value: 11.577868009052175
+Seed: 1730492269
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [18, 200, 209, 238]
+Value: 13.861299536755382
+Seed: 1730492462
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [58, 104, 124, 138, 168]
+Value: 16.01253186102485
+Seed: 1730492656
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [133, 184]
+Value: 9.244700510400532
+Seed: 1730492846
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [7, 12, 165]
+Value: 11.579543006070514
+Seed: 1730493033
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [97, 165, 201, 209]
+Value: 13.744615934227749
+Seed: 1730493225
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [53, 116, 122, 202, 217]
+Value: 15.848297268554017
+Seed: 1730493437
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [168, 196]
+Value: 9.33670505368299
+Seed: 1730493622
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [93, 117, 124]
+Value: 11.672863724767065
+Seed: 1730493803
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [119, 165, 208, 248]
+Value: 13.777951784630549
+Seed: 1730494012
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [1, 94, 108, 154, 186]
+Value: 15.890419588097746
+Seed: 1730494217
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [117, 179]
+Value: 9.420503004112886
+Seed: 1730494398
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [111, 187, 252]
+Value: 11.692265637641121
+Seed: 1730494589
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [58, 88, 225, 243]
+Value: 13.841150670085398
+Seed: 1730494780
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [72, 98, 123, 187, 237]
+Value: 15.843002590708029
+Seed: 1730494989
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [169, 249]
+Value: 9.190979836936837
+Seed: 1730495184
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [56, 165, 205]
+Value: 11.426887545838433
+Seed: 1730495378
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [19, 32, 109, 176]
+Value: 13.510142746897133
+Seed: 1730495574
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [3, 14, 17, 24, 166]
+Value: 15.636712228902434
+Seed: 1730495783
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [116, 171]
+Value: 8.790574485478263
+Seed: 1730495967
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [66, 105, 142]
+Value: 11.163966721920705
+Seed: 1730496158
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [27, 153, 162, 227]
+Value: 13.279588128780844
+Seed: 1730496343
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [11, 43, 49, 101, 142]
+Value: 15.422939806768241
+Seed: 1730496557
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [61, 173]
+Value: 8.528335149175554
+Seed: 1730496743
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [94, 175, 188]
+Value: 10.927472679678788
+Seed: 1730496940
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [24, 62, 154, 186]
+Value: 13.129963826253572
+Seed: 1730497136
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [0, 41, 58, 64, 110]
+Value: 15.395366949313008
+Seed: 1730497343
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [104, 162]
+Value: 8.147556392162752
+Seed: 1730497527
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [81, 109, 125]
+Value: 10.60293274876546
+Seed: 1730497705
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [20, 101, 131, 159]
+Value: 13.052195828471584
+Seed: 1730497894
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [23, 43, 95, 188, 226]
+Value: 15.274424012045502
+Seed: 1730498081
+Run: 4
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [71, 126]
+Value: 9.21548426039371
+Seed: 1730498260
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [48, 129, 171]
+Value: 11.731154560520473
+Seed: 1730498454
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [1, 144, 153, 248]
+Value: 13.953315898695864
+Seed: 1730498651
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [0, 17, 124, 207, 211]
+Value: 16.11018526585544
+Seed: 1730498864
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [94, 108]
+Value: 9.264473780241438
+Seed: 1730499054
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [54, 114, 185]
+Value: 11.682945099070938
+Seed: 1730499236
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [2, 100, 109, 112]
+Value: 13.93765768225352
+Seed: 1730499422
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [16, 34, 115, 185, 224]
+Value: 16.016782599912883
+Seed: 1730499636
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [112, 250]
+Value: 9.258523529390335
+Seed: 1730499833
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [116, 145, 162]
+Value: 11.576265133199065
+Seed: 1730500021
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [64, 87, 245, 248]
+Value: 13.86010217917768
+Seed: 1730500226
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [26, 35, 132, 155, 189]
+Value: 16.013897324017115
+Seed: 1730500435
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [79, 116]
+Value: 9.244700510400532
+Seed: 1730500627
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [79, 165, 207]
+Value: 11.572353638699212
+Seed: 1730500821
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [42, 76, 87, 178]
+Value: 13.741320594008537
+Seed: 1730501021
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [45, 67, 170, 200, 237]
+Value: 15.87797926429261
+Seed: 1730501244
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [121, 186]
+Value: 9.33670505368299
+Seed: 1730501435
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [92, 123, 173]
+Value: 11.673639339598957
+Seed: 1730501617
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [67, 132, 151, 178]
+Value: 13.763922951851784
+Seed: 1730501815
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [18, 49, 59, 186, 194]
+Value: 15.89978518020289
+Seed: 1730502021
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [116, 179]
+Value: 9.420503004112886
+Seed: 1730502192
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [19, 157, 206]
+Value: 11.690881626179586
+Seed: 1730502381
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [44, 94, 172, 241]
+Value: 13.841032980689544
+Seed: 1730502567
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [12, 58, 109, 154, 201]
+Value: 15.83986275043033
+Seed: 1730502768
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [111, 168]
+Value: 9.190979836936837
+Seed: 1730502953
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [25, 74, 246]
+Value: 11.426887545838433
+Seed: 1730503136
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [30, 60, 76, 180]
+Value: 13.517854075115903
+Seed: 1730503335
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [37, 86, 161, 167, 184]
+Value: 15.635809569379537
+Seed: 1730503544
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [129, 232]
+Value: 8.790574485478263
+Seed: 1730503738
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [124, 154, 204]
+Value: 11.16074769357913
+Seed: 1730503930
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [94, 200, 226, 238]
+Value: 13.292311231614063
+Seed: 1730504112
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [61, 139, 161, 161, 202]
+Value: 15.448591431651238
+Seed: 1730504334
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [106, 172]
+Value: 8.528335149175554
+Seed: 1730504519
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [141, 188, 227]
+Value: 10.927695738806728
+Seed: 1730504716
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [5, 49, 70, 173]
+Value: 13.127413469958075
+Seed: 1730504908
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [67, 85, 99, 172, 248]
+Value: 15.401447122945804
+Seed: 1730505120
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [16, 69]
+Value: 8.147556392162752
+Seed: 1730505307
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [1, 69, 140]
+Value: 10.60293274876546
+Seed: 1730505494
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [186, 193, 210, 250]
+Value: 13.057594321607487
+Seed: 1730505697
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [5, 55, 138, 174, 178]
+Value: 15.27897250576225
+Seed: 1730505917
+Run: 5
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [94, 183]
+Value: 9.21548426039371
+Seed: 1730506105
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [55, 233, 249]
+Value: 11.731793037381825
+Seed: 1730506293
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [54, 161, 216, 245]
+Value: 13.932390636805774
+Seed: 1730506505
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [31, 56, 59, 133, 251]
+Value: 16.11285506118715
+Seed: 1730506707
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [109, 184]
+Value: 9.264473780241438
+Seed: 1730506901
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [117, 244, 255]
+Value: 11.682746214048908
+Seed: 1730507094
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [85, 106, 130, 184]
+Value: 13.938223898870238
+Seed: 1730507287
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [25, 99, 105, 111, 188]
+Value: 16.03052407466286
+Seed: 1730507498
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [113, 182]
+Value: 9.258523529390335
+Seed: 1730507692
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [84, 137, 188]
+Value: 11.57588732702559
+Seed: 1730507886
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [33, 112, 131, 206]
+Value: 13.862848411739817
+Seed: 1730508086
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [27, 165, 172, 194, 226]
+Value: 16.0168793026167
+Seed: 1730508290
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [188, 188]
+Value: 9.244700510400532
+Seed: 1730508483
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [64, 165, 203]
+Value: 11.579543006070514
+Seed: 1730508678
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [90, 131, 171, 206]
+Value: 13.743116826179259
+Seed: 1730508880
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [3, 131, 142, 172, 192]
+Value: 15.866244678632697
+Seed: 1730509088
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [11, 120]
+Value: 9.33670505368299
+Seed: 1730509281
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [41, 97, 145]
+Value: 11.66906748726517
+Seed: 1730509472
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [91, 129, 212, 253]
+Value: 13.77917417058263
+Seed: 1730509671
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [67, 157, 188, 198, 223]
+Value: 15.893222658767858
+Seed: 1730509886
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [178, 223]
+Value: 9.420503004112886
+Seed: 1730510079
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [110, 151, 178]
+Value: 11.692040522894315
+Seed: 1730510267
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [74, 159, 167, 189]
+Value: 13.844439966335639
+Seed: 1730510457
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [37, 103, 168, 211, 240]
+Value: 15.843440623625458
+Seed: 1730510658
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [110, 235]
+Value: 9.190979836936837
+Seed: 1730510837
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [92, 126, 149]
+Value: 11.426887545838433
+Seed: 1730511017
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [52, 139, 176, 212]
+Value: 13.504329706610147
+Seed: 1730511207
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [28, 104, 193, 202, 235]
+Value: 15.63467202622267
+Seed: 1730511398
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [108, 173]
+Value: 8.790574485478263
+Seed: 1730511582
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [103, 154, 160]
+Value: 11.16074769357913
+Seed: 1730511776
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [9, 57, 118, 172]
+Value: 13.292311231614063
+Seed: 1730511962
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [2, 19, 59, 107, 126]
+Value: 15.44823313283228
+Seed: 1730512166
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [111, 173]
+Value: 8.528335149175554
+Seed: 1730512347
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [93, 140, 188]
+Value: 10.927695738806728
+Seed: 1730512531
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [1, 61, 118, 173]
+Value: 13.130763490168162
+Seed: 1730512722
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [3, 28, 93, 124, 160]
+Value: 15.40951410687883
+Seed: 1730512942
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [4, 16]
+Value: 8.147556392162752
+Seed: 1730513127
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [126, 207, 208]
+Value: 10.60293274876546
+Seed: 1730513317
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [1, 7, 103, 245]
+Value: 13.057594321607487
+Seed: 1730513508
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [3, 55, 188, 229, 234]
+Value: 15.281275623802527
+Seed: 1730513710
+Run: 6
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [102, 183]
+Value: 9.21548426039371
+Seed: 1730513898
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [57, 114, 184]
+Value: 11.733280904522735
+Seed: 1730514092
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [58, 74, 164, 243]
+Value: 13.952934097226406
+Seed: 1730514285
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [112, 125, 147, 173, 206]
+Value: 16.101002009131975
+Seed: 1730514496
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [35, 171]
+Value: 9.264473780241438
+Seed: 1730514683
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [40, 118, 149]
+Value: 11.683467397426469
+Seed: 1730514864
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [6, 13, 131, 176]
+Value: 13.936457560495873
+Seed: 1730515070
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [33, 58, 122, 204, 218]
+Value: 16.03840177960523
+Seed: 1730515278
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [64, 107]
+Value: 9.258523529390335
+Seed: 1730515465
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [35, 180, 251]
+Value: 11.577868009052175
+Seed: 1730515641
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [128, 152, 165, 213]
+Value: 13.862192962792257
+Seed: 1730515842
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [26, 71, 129, 183, 210]
+Value: 16.00694088060422
+Seed: 1730516043
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [117, 209]
+Value: 9.244700510400532
+Seed: 1730516240
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [113, 164, 202]
+Value: 11.575517929451983
+Seed: 1730516422
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [44, 173, 236, 253]
+Value: 13.73888606861766
+Seed: 1730516616
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [30, 175, 188, 198, 255]
+Value: 15.86768856822737
+Seed: 1730516825
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [120, 186]
+Value: 9.33670505368299
+Seed: 1730517018
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [43, 44, 166]
+Value: 11.67172781953196
+Seed: 1730517211
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [0, 24, 93, 228]
+Value: 13.776353953143145
+Seed: 1730517396
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [33, 52, 166, 181, 220]
+Value: 15.874738046698734
+Seed: 1730517608
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [28, 233]
+Value: 9.420503004112886
+Seed: 1730517801
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [137, 150, 190]
+Value: 11.689595457469153
+Seed: 1730518004
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [97, 172, 196, 200]
+Value: 13.841664010786861
+Seed: 1730518207
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [15, 85, 132, 170, 229]
+Value: 15.851564231934457
+Seed: 1730518415
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [11, 160]
+Value: 9.190979836936837
+Seed: 1730518602
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [27, 75, 145]
+Value: 11.426563529345405
+Seed: 1730518786
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [17, 134, 204, 207]
+Value: 13.516480131576067
+Seed: 1730518978
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [7, 60, 83, 84, 117]
+Value: 15.630617245985373
+Seed: 1730519196
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [94, 164]
+Value: 8.790574485478263
+Seed: 1730519381
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [102, 154, 204]
+Value: 11.16074769357913
+Seed: 1730519569
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [96, 135, 173, 215]
+Value: 13.288138103063362
+Seed: 1730519763
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [2, 123, 137, 162, 191]
+Value: 15.450400735962287
+Seed: 1730519972
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [106, 172]
+Value: 8.528335149175554
+Seed: 1730520153
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [140, 182, 188]
+Value: 10.927695738806728
+Seed: 1730520348
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [35, 89, 198, 240]
+Value: 13.124527124879041
+Seed: 1730520551
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [53, 129, 187, 221, 234]
+Value: 15.402428674163655
+Seed: 1730520760
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [104, 162]
+Value: 8.147556392162752
+Seed: 1730520954
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [35, 181, 228]
+Value: 10.602217549219963
+Seed: 1730521145
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [0, 71, 140, 171]
+Value: 13.057594321607487
+Seed: 1730521346
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [87, 88, 92, 191, 239]
+Value: 15.243624544363165
+Seed: 1730521557
+Run: 7
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [144, 254]
+Value: 9.21548426039371
+Seed: 1730521749
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [13, 25, 115]
+Value: 11.733280904522735
+Seed: 1730521942
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [42, 115, 126, 164]
+Value: 13.949332371111057
+Seed: 1730522156
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [6, 96, 123, 154, 181]
+Value: 16.108402059262264
+Seed: 1730522359
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [109, 184]
+Value: 9.264473780241438
+Seed: 1730522552
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [66, 185, 213]
+Value: 11.682945099070938
+Seed: 1730522736
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [1, 1, 180, 229]
+Value: 13.936514652849624
+Seed: 1730522934
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [31, 49, 127, 163, 206]
+Value: 16.02616183649908
+Seed: 1730523147
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [20, 112]
+Value: 9.258523529390335
+Seed: 1730523340
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [143, 181, 224]
+Value: 11.577292714248077
+Seed: 1730523531
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [95, 143, 154, 166]
+Value: 13.859437161500397
+Seed: 1730523730
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [136, 158, 170, 174, 181]
+Value: 16.00657322764753
+Seed: 1730523946
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [19, 67]
+Value: 9.244700510400532
+Seed: 1730524137
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [83, 93, 217]
+Value: 11.57879393433702
+Seed: 1730524338
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [78, 113, 227, 232]
+Value: 13.749081215144347
+Seed: 1730524530
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [5, 100, 185, 192, 202]
+Value: 15.87650506711602
+Seed: 1730524735
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [120, 186]
+Value: 9.33670505368299
+Seed: 1730524938
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [81, 174, 230]
+Value: 11.668780168400321
+Seed: 1730525126
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [20, 24, 64, 77]
+Value: 13.773114077862127
+Seed: 1730525323
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [76, 109, 140, 189, 194]
+Value: 15.896401142893765
+Seed: 1730525526
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [120, 179]
+Value: 9.420503004112886
+Seed: 1730525715
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [72, 101, 143]
+Value: 11.692040522894315
+Seed: 1730525906
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [67, 70, 143, 236]
+Value: 13.844335503468969
+Seed: 1730526101
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [12, 60, 110, 154, 199]
+Value: 15.8454882388169
+Seed: 1730526311
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [111, 168]
+Value: 9.190979836936837
+Seed: 1730526498
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [119, 188, 191]
+Value: 11.42576696871646
+Seed: 1730526694
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [60, 172, 225, 230]
+Value: 13.513396821328053
+Seed: 1730526894
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [9, 60, 111, 199, 238]
+Value: 15.637115573429993
+Seed: 1730527094
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [109, 166]
+Value: 8.790574485478263
+Seed: 1730527283
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [49, 74, 155]
+Value: 11.162103537744146
+Seed: 1730527481
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [47, 87, 210, 245]
+Value: 13.290603433298578
+Seed: 1730527675
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [109, 115, 157, 175, 247]
+Value: 15.466443758686614
+Seed: 1730527888
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [60, 161]
+Value: 8.528335149175554
+Seed: 1730528066
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [95, 107, 141]
+Value: 10.926029017440412
+Seed: 1730528249
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [28, 85, 100, 117]
+Value: 13.129459470430449
+Seed: 1730528439
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [90, 107, 137, 140, 220]
+Value: 15.376611391365255
+Seed: 1730528643
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [105, 162]
+Value: 8.147556392162752
+Seed: 1730528817
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [60, 206, 239]
+Value: 10.598765044706708
+Seed: 1730529004
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [3, 65, 121, 172]
+Value: 13.0446023570727
+Seed: 1730529194
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [126, 137, 140, 211, 230]
+Value: 15.261054196359575
+Seed: 1730529417
+Run: 8
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [94, 183]
+Value: 9.21548426039371
+Seed: 1730529613
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [56, 115, 126]
+Value: 11.733280904522735
+Seed: 1730529808
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [73, 93, 222, 246]
+Value: 13.93810626826215
+Seed: 1730530001
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [39, 79, 124, 147, 169]
+Value: 16.10615232459358
+Seed: 1730530211
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [78, 108]
+Value: 9.264473780241438
+Seed: 1730530403
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [54, 117, 184]
+Value: 11.682746214048908
+Seed: 1730530587
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [26, 35, 199, 252]
+Value: 13.938971792815698
+Seed: 1730530777
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [14, 37, 94, 116, 255]
+Value: 16.02902592633604
+Seed: 1730530979
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [112, 182]
+Value: 9.258523529390335
+Seed: 1730531175
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [81, 131, 187]
+Value: 11.577292714248077
+Seed: 1730531369
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [28, 45, 125, 150]
+Value: 13.864082573349961
+Seed: 1730531575
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [89, 94, 101, 152, 183]
+Value: 16.011104195378593
+Seed: 1730531789
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [9, 184]
+Value: 9.244700510400532
+Seed: 1730531976
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [87, 109, 192]
+Value: 11.579543006070514
+Seed: 1730532164
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [88, 128, 172, 208]
+Value: 13.749081215144347
+Seed: 1730532367
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [88, 100, 161, 162, 178]
+Value: 15.873941071953498
+Seed: 1730532741
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [120, 186]
+Value: 9.33670505368299
+Seed: 1730533225
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [63, 101, 146]
+Value: 11.674459496923618
+Seed: 1730533689
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [6, 101, 116, 255]
+Value: 13.767833218319451
+Seed: 1730534183
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [19, 30, 91, 191, 224]
+Value: 15.89584537533625
+Seed: 1730534706
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [68, 235]
+Value: 9.420503004112886
+Seed: 1730535137
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [59, 99, 222]
+Value: 11.693511579951416
+Seed: 1730535614
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [18, 49, 53, 59]
+Value: 13.840124184232646
+Seed: 1730536086
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [88, 115, 122, 154, 185]
+Value: 15.846209602472834
+Seed: 1730536619
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [64, 169]
+Value: 9.190979836936837
+Seed: 1730537087
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [137, 218, 246]
+Value: 11.426563529345405
+Seed: 1730537611
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [171, 199, 201, 206]
+Value: 13.51144752812996
+Seed: 1730538120
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [32, 50, 58, 62, 233]
+Value: 15.631390610791623
+Seed: 1730538469
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [13, 61]
+Value: 8.790574485478263
+Seed: 1730538675
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [67, 101, 111]
+Value: 11.163966721920705
+Seed: 1730538870
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [12, 38, 73, 169]
+Value: 13.281305921899142
+Seed: 1730539097
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [6, 9, 19, 73, 103]
+Value: 15.446718964141027
+Seed: 1730539311
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [37, 237]
+Value: 8.528335149175554
+Seed: 1730539503
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [171, 172, 188]
+Value: 10.927379084157407
+Seed: 1730539714
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [162, 196, 235, 238]
+Value: 13.12954048689845
+Seed: 1730539921
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [16, 83, 88, 205, 217]
+Value: 15.404838314985447
+Seed: 1730540136
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [105, 162]
+Value: 8.147556392162752
+Seed: 1730540326
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [1, 32, 140]
+Value: 10.602217549219963
+Seed: 1730540512
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [0, 68, 122, 171]
+Value: 13.051241410575134
+Seed: 1730540721
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [44, 106, 108, 134, 150]
+Value: 15.266735328738918
+Seed: 1730540936
+Run: 9
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [95, 182]
+Value: 9.21548426039371
+Seed: 1730541139
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [56, 173, 184]
+Value: 11.731798240853774
+Seed: 1730541336
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [87, 130, 182, 182]
+Value: 13.939962477897996
+Seed: 1730541543
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [36, 77, 119, 172, 203]
+Value: 16.0825800209711
+Seed: 1730541761
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [69, 109]
+Value: 9.264473780241438
+Seed: 1730541957
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [45, 140, 251]
+Value: 11.682746214048908
+Seed: 1730542165
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [35, 81, 112, 247]
+Value: 13.937572316663816
+Seed: 1730542379
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [5, 107, 152, 183, 198]
+Value: 16.03737349233266
+Seed: 1730542609
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [113, 182]
+Value: 9.258523529390335
+Seed: 1730542818
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [80, 131, 187]
+Value: 11.577292714248077
+Seed: 1730543050
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [71, 73, 91, 127]
+Value: 13.858438413394072
+Seed: 1730543253
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [18, 29, 91, 195, 235]
+Value: 16.008719101423434
+Seed: 1730543472
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [117, 249]
+Value: 9.244700510400532
+Seed: 1730543691
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [157, 184, 203]
+Value: 11.57879393433702
+Seed: 1730543889
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [128, 154, 171, 206]
+Value: 13.744615934227749
+Seed: 1730544110
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [16, 220, 221, 234, 235]
+Value: 15.861677134474075
+Seed: 1730544327
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [120, 186]
+Value: 9.33670505368299
+Seed: 1730544511
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [100, 146, 194]
+Value: 11.674459496923618
+Seed: 1730544707
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [121, 160, 174, 242]
+Value: 13.770907518446446
+Seed: 1730544909
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [21, 64, 108, 155, 195]
+Value: 15.89927727047279
+Seed: 1730545116
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [116, 179]
+Value: 9.420503004112886
+Seed: 1730545311
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [25, 140, 245]
+Value: 11.692265637641121
+Seed: 1730545507
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [8, 50, 139, 172]
+Value: 13.845889286045711
+Seed: 1730545713
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [63, 117, 119, 141, 207]
+Value: 15.842151376143743
+Seed: 1730545930
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [34, 169]
+Value: 9.190979836936837
+Seed: 1730546122
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [36, 190, 240]
+Value: 11.42576696871646
+Seed: 1730546326
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [31, 137, 171, 210]
+Value: 13.513634690975037
+Seed: 1730546525
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [114, 184, 193, 194, 221]
+Value: 15.633428259043288
+Seed: 1730546734
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [108, 156]
+Value: 8.790574485478263
+Seed: 1730546939
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [104, 157, 204]
+Value: 11.163966721920705
+Seed: 1730547137
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [128, 153, 171, 243]
+Value: 13.274732047708037
+Seed: 1730547349
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [20, 23, 51, 53, 104]
+Value: 15.448734626113504
+Seed: 1730547561
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [107, 172]
+Value: 8.528335149175554
+Seed: 1730547764
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [58, 114, 251]
+Value: 10.927695738806728
+Seed: 1730547972
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [1, 60, 116, 173]
+Value: 13.126461174224108
+Seed: 1730548187
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [69, 103, 118, 179, 226]
+Value: 15.399971806214431
+Seed: 1730548409
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [137, 165]
+Value: 8.147556392162752
+Seed: 1730548609
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [0, 126, 183]
+Value: 10.602217549219963
+Seed: 1730548808
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [1, 122, 129, 171]
+Value: 13.058672537825448
+Seed: 1730549024
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [96, 146, 174, 187, 240]
+Value: 15.242912784692384
+Seed: 1730549250
+Run: 10
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [182, 225]
+Value: 9.21548426039371
+Seed: 1730549440
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [56, 115, 185]
+Value: 11.733280904522735
+Seed: 1730549656
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [147, 147, 175, 218]
+Value: 13.94945126259192
+Seed: 1730549855
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [6, 55, 167, 207, 225]
+Value: 16.10553101238582
+Seed: 1730550068
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [0, 226]
+Value: 9.264473780241438
+Seed: 1730550270
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [55, 116, 184]
+Value: 11.682746214048908
+Seed: 1730550455
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [21, 66, 72, 151]
+Value: 13.93794643561733
+Seed: 1730550655
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [21, 23, 30, 62, 134]
+Value: 16.034622379137964
+Seed: 1730550874
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [112, 182]
+Value: 9.258523529390335
+Seed: 1730551067
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [82, 132, 186]
+Value: 11.576265133199065
+Seed: 1730551264
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [66, 73, 79, 142]
+Value: 13.856709462473056
+Seed: 1730551465
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [42, 79, 210, 216, 230]
+Value: 16.01123601921066
+Seed: 1730551710
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [116, 185]
+Value: 9.244700510400532
+Seed: 1730551920
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [22, 115, 181]
+Value: 11.579543006070514
+Seed: 1730552113
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [11, 91, 172, 208]
+Value: 13.750207358133242
+Seed: 1730552321
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [29, 44, 97, 108, 156]
+Value: 15.862085776497027
+Seed: 1730552524
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [120, 186]
+Value: 9.33670505368299
+Seed: 1730552710
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [124, 204, 205]
+Value: 11.67338021463624
+Seed: 1730552903
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [29, 47, 123, 168]
+Value: 13.774999056343999
+Seed: 1730553106
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [18, 65, 73, 197, 235]
+Value: 15.890725349627491
+Seed: 1730553325
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [41, 116]
+Value: 9.420503004112886
+Seed: 1730553521
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [131, 194, 225]
+Value: 11.693511579951416
+Seed: 1730553714
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [94, 178, 197, 229]
+Value: 13.840235249202571
+Seed: 1730553908
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [15, 23, 125, 178, 204]
+Value: 15.841050629663664
+Seed: 1730554112
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [186, 231]
+Value: 9.190979836936837
+Seed: 1730554311
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [75, 98, 193]
+Value: 11.421581496389452
+Seed: 1730554509
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [15, 81, 171, 244]
+Value: 13.51816612607611
+Seed: 1730554706
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [33, 75, 135, 144, 168]
+Value: 15.62724303405141
+Seed: 1730554922
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [109, 173]
+Value: 8.790574485478263
+Seed: 1730555115
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [106, 159, 204]
+Value: 11.162417336292593
+Seed: 1730555312
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [97, 134, 171, 210]
+Value: 13.294007173139642
+Seed: 1730555512
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [4, 53, 153, 164, 235]
+Value: 15.45374202457143
+Seed: 1730555724
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [42, 106]
+Value: 8.528335149175554
+Seed: 1730555909
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [92, 141, 153]
+Value: 10.927695738806728
+Seed: 1730556096
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [5, 120, 169, 217]
+Value: 13.123427254439266
+Seed: 1730556296
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [66, 92, 118, 213, 225]
+Value: 15.374727095567716
+Seed: 1730556517
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [88, 104]
+Value: 8.147556392162752
+Seed: 1730556716
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [93, 179, 184]
+Value: 10.60293274876546
+Seed: 1730556902
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [31, 61, 166, 171]
+Value: 13.055249875679175
+Seed: 1730557098
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [51, 55, 99, 114, 141]
+Value: 15.271909776105158
+Seed: 1730557320
+Run: 11
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [40, 177]
+Value: 9.21548426039371
+Seed: 1730557515
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [88, 95, 235]
+Value: 11.731640090073377
+Seed: 1730557708
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [47, 109, 149, 237]
+Value: 13.943612781854107
+Seed: 1730557912
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [31, 112, 125, 128, 173]
+Value: 16.1128523802696
+Seed: 1730558133
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [109, 129]
+Value: 9.264473780241438
+Seed: 1730558327
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [40, 57, 117]
+Value: 11.682327756515921
+Seed: 1730558533
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [91, 131, 143, 155]
+Value: 13.940646504480197
+Seed: 1730558733
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [81, 84, 118, 154, 187]
+Value: 16.039199983261714
+Seed: 1730558955
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [118, 182]
+Value: 9.258523529390335
+Seed: 1730559149
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [22, 67, 79]
+Value: 11.574748923699296
+Seed: 1730559344
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [12, 115, 124, 214]
+Value: 13.8598108083557
+Seed: 1730559557
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [25, 67, 108, 154, 191]
+Value: 16.02020518046398
+Seed: 1730559770
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [117, 224]
+Value: 9.244700510400532
+Seed: 1730559966
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [10, 92, 174]
+Value: 11.579543006070514
+Seed: 1730560156
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [48, 55, 85, 209]
+Value: 13.743765755893754
+Seed: 1730560356
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [64, 104, 118, 171, 246]
+Value: 15.866885290187927
+Seed: 1730560578
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [121, 187]
+Value: 9.33670505368299
+Seed: 1730560775
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [86, 100, 232]
+Value: 11.674459496923618
+Seed: 1730560968
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [51, 78, 132, 209]
+Value: 13.77592757598969
+Seed: 1730561188
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [59, 80, 112, 150, 175]
+Value: 15.90307423617722
+Seed: 1730561383
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [79, 100]
+Value: 9.420503004112886
+Seed: 1730561572
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [115, 158, 196]
+Value: 11.692265637641121
+Seed: 1730561761
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [133, 213, 241, 255]
+Value: 13.845889286045711
+Seed: 1730561975
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [24, 51, 149, 194, 249]
+Value: 15.835683388460925
+Seed: 1730562176
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [110, 169]
+Value: 9.190979836936837
+Seed: 1730562368
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [31, 193, 233]
+Value: 11.426563529345405
+Seed: 1730562563
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [94, 132, 170, 207]
+Value: 13.506320181273786
+Seed: 1730562752
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [93, 108, 138, 171, 171]
+Value: 15.637785437207423
+Seed: 1730562969
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [108, 173]
+Value: 8.790574485478263
+Seed: 1730563155
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [25, 105, 189]
+Value: 11.162103537744146
+Seed: 1730563346
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [96, 132, 215, 236]
+Value: 13.28563636385578
+Seed: 1730563549
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [116, 117, 214, 218, 253]
+Value: 15.443980508168703
+Seed: 1730563754
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [87, 167]
+Value: 8.528335149175554
+Seed: 1730563949
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [95, 142, 189]
+Value: 10.927472679678788
+Seed: 1730564149
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [1, 87, 88, 118]
+Value: 13.132553274714022
+Seed: 1730564354
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [146, 149, 182, 188, 193]
+Value: 15.398841100737268
+Seed: 1730564554
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [104, 162]
+Value: 8.147556392162752
+Seed: 1730564743
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [4, 108, 189]
+Value: 10.600193506118165
+Seed: 1730564940
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [18, 178, 187, 226]
+Value: 13.05440482353491
+Seed: 1730565139
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [66, 181, 197, 223, 234]
+Value: 15.270700001513532
+Seed: 1730565349
+Run: 12
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [94, 183]
+Value: 9.21548426039371
+Seed: 1730565542
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [5, 56, 61]
+Value: 11.733280904522735
+Seed: 1730565736
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [2, 133, 182, 223]
+Value: 13.942085279276725
+Seed: 1730565952
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [37, 79, 111, 213, 246]
+Value: 16.09326676338625
+Seed: 1730566164
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [92, 226]
+Value: 9.264473780241438
+Seed: 1730566364
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [52, 114, 184]
+Value: 11.683467397426469
+Seed: 1730566564
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [75, 88, 196, 234]
+Value: 13.936514652849624
+Seed: 1730566752
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [34, 78, 124, 173, 207]
+Value: 16.048275304620716
+Seed: 1730566973
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [112, 182]
+Value: 9.258523529390335
+Seed: 1730567168
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [14, 38, 234]
+Value: 11.577868009052175
+Seed: 1730567368
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [3, 54, 55, 190]
+Value: 13.864082573349961
+Seed: 1730567579
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [86, 102, 187, 194, 211]
+Value: 16.010663169881596
+Seed: 1730567785
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [117, 185]
+Value: 9.244700510400532
+Seed: 1730567977
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [190, 202, 246]
+Value: 11.579543006070514
+Seed: 1730568163
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [63, 156, 170, 186]
+Value: 13.74387897117644
+Seed: 1730568361
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [10, 24, 47, 66, 232]
+Value: 15.88031530180851
+Seed: 1730568571
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [186, 247]
+Value: 9.33670505368299
+Seed: 1730568764
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [27, 104, 148]
+Value: 11.669031981820105
+Seed: 1730568950
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [93, 132, 175, 209]
+Value: 13.780857342393151
+Seed: 1730569159
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [34, 92, 110, 117, 213]
+Value: 15.899489891621883
+Seed: 1730569371
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [117, 178]
+Value: 9.420503004112886
+Seed: 1730569568
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [48, 98, 140]
+Value: 11.693511579951416
+Seed: 1730569758
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [28, 53, 96, 220]
+Value: 13.83837471453662
+Seed: 1730569956
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [13, 62, 112, 154, 200]
+Value: 15.841466204374033
+Seed: 1730570169
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [111, 169]
+Value: 9.190979836936837
+Seed: 1730570356
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [1, 102, 145]
+Value: 11.426887545838433
+Seed: 1730570563
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [17, 82, 127, 187]
+Value: 13.494815928965657
+Seed: 1730570777
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [13, 62, 203, 207, 214]
+Value: 15.632148135880445
+Seed: 1730570985
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [40, 149]
+Value: 8.790574485478263
+Seed: 1730571179
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [51, 109, 204]
+Value: 11.163655181415503
+Seed: 1730571380
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [78, 143, 171, 231]
+Value: 13.288382485932575
+Seed: 1730571585
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [92, 134, 143, 220, 242]
+Value: 15.449446195333056
+Seed: 1730571806
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [14, 184]
+Value: 8.528335149175554
+Seed: 1730571991
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [94, 143, 189]
+Value: 10.927472679678788
+Seed: 1730572189
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [3, 101, 127, 225]
+Value: 13.12838075880899
+Seed: 1730572388
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [85, 93, 115, 137, 149]
+Value: 15.41243235919751
+Seed: 1730572602
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [105, 254]
+Value: 8.147556392162752
+Seed: 1730572801
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [0, 100, 249]
+Value: 10.602217549219963
+Seed: 1730573000
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [60, 156, 238, 248]
+Value: 13.055249875679175
+Seed: 1730573203
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [1, 50, 100, 141, 183]
+Value: 15.282180628657635
+Seed: 1730573410
+Run: 13
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [94, 183]
+Value: 9.21548426039371
+Seed: 1730573605
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [136, 204, 243]
+Value: 11.733280904522735
+Seed: 1730573807
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [43, 87, 126, 184]
+Value: 13.948828609558833
+Seed: 1730574015
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [7, 88, 129, 170, 182]
+Value: 16.10557316899375
+Seed: 1730574236
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [169, 238]
+Value: 9.264473780241438
+Seed: 1730574433
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [52, 184, 208]
+Value: 11.683467397426469
+Seed: 1730574626
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [46, 90, 126, 142]
+Value: 13.93416656461445
+Seed: 1730574834
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [37, 126, 138, 226, 239]
+Value: 16.029854915086666
+Seed: 1730575054
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [112, 122]
+Value: 9.258523529390335
+Seed: 1730575251
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [35, 43, 43]
+Value: 11.57588732702559
+Seed: 1730575453
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [85, 103, 178, 234]
+Value: 13.861952196826913
+Seed: 1730575649
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [25, 32, 116, 196, 255]
+Value: 16.013506306865906
+Seed: 1730575860
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [116, 182]
+Value: 9.244700510400532
+Seed: 1730576067
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [108, 203, 251]
+Value: 11.579543006070514
+Seed: 1730576254
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [50, 92, 171, 207]
+Value: 13.737477398836353
+Seed: 1730576461
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [16, 49, 137, 138, 191]
+Value: 15.847827327139193
+Seed: 1730576673
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [121, 187]
+Value: 9.33670505368299
+Seed: 1730576865
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [100, 194, 198]
+Value: 11.674459496923618
+Seed: 1730577066
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [118, 156, 194, 253]
+Value: 13.777990616630115
+Seed: 1730577254
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [32, 34, 69, 91, 181]
+Value: 15.884193022882075
+Seed: 1730577460
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [77, 187]
+Value: 9.420503004112886
+Seed: 1730577655
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [2, 45, 184]
+Value: 11.69075953169028
+Seed: 1730577863
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [150, 170, 189, 202]
+Value: 13.842777103445345
+Seed: 1730578051
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [193, 197, 214, 215, 252]
+Value: 15.837940224095561
+Seed: 1730578264
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [61, 78]
+Value: 9.190979836936837
+Seed: 1730578447
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [6, 102, 168]
+Value: 11.426060981160195
+Seed: 1730578636
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [121, 128, 135, 240]
+Value: 13.51816612607611
+Seed: 1730578840
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [26, 60, 77, 109, 157]
+Value: 15.630080910510404
+Seed: 1730579056
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [109, 173]
+Value: 8.790574485478263
+Seed: 1730579246
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [5, 47, 132]
+Value: 11.16101614188009
+Seed: 1730579438
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [134, 149, 172, 238]
+Value: 13.29176328195892
+Seed: 1730579634
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [9, 42, 63, 163, 248]
+Value: 15.457480434557652
+Seed: 1730579843
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [106, 172]
+Value: 8.528335149175554
+Seed: 1730580032
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [210, 234, 244]
+Value: 10.927695738806728
+Seed: 1730580228
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [1, 119, 171, 175]
+Value: 13.128157809021173
+Seed: 1730580432
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [1, 12, 155, 166, 199]
+Value: 15.381940071231213
+Seed: 1730580646
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [105, 162]
+Value: 8.147556392162752
+Seed: 1730580833
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [0, 44, 63]
+Value: 10.60293274876546
+Seed: 1730581018
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [60, 105, 145, 182]
+Value: 13.05681396922685
+Seed: 1730581218
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [1, 28, 49, 95, 121]
+Value: 15.27776360853359
+Seed: 1730581438
+Run: 14
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [99, 163]
+Value: 9.21548426039371
+Seed: 1730581626
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [50, 56, 183]
+Value: 11.733280904522735
+Seed: 1730581824
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [44, 153, 178, 184]
+Value: 13.948481086418507
+Seed: 1730582026
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [6, 36, 52, 181, 219]
+Value: 16.103387990186803
+Seed: 1730582244
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [34, 76]
+Value: 9.264473780241438
+Seed: 1730582440
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [89, 97, 114]
+Value: 11.683467397426469
+Seed: 1730582632
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [3, 29, 90, 161]
+Value: 13.940646504480197
+Seed: 1730582826
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [2, 16, 228, 240, 253]
+Value: 16.036712688850265
+Seed: 1730583036
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [61, 252]
+Value: 9.258523529390335
+Seed: 1730583224
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [152, 153, 192]
+Value: 11.575866479825512
+Seed: 1730583427
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [32, 78, 131, 196]
+Value: 13.863759805053032
+Seed: 1730583628
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [4, 143, 164, 201, 224]
+Value: 16.021216955922114
+Seed: 1730583849
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [185, 201]
+Value: 9.244700510400532
+Seed: 1730584041
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [108, 164, 203]
+Value: 11.579543006070514
+Seed: 1730584244
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [130, 137, 175, 206]
+Value: 13.736929677908368
+Seed: 1730584441
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [36, 82, 101, 135, 169]
+Value: 15.850751551454717
+Seed: 1730584662
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [121, 187]
+Value: 9.33670505368299
+Seed: 1730584865
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [100, 146, 194]
+Value: 11.674459496923618
+Seed: 1730585061
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [8, 99, 156, 169]
+Value: 13.776288211987096
+Seed: 1730585250
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [19, 42, 99, 157, 196]
+Value: 15.89784252863399
+Seed: 1730585459
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [146, 222]
+Value: 9.420503004112886
+Seed: 1730585657
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [27, 71, 141]
+Value: 11.692265637641121
+Seed: 1730585849
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [79, 95, 175, 229]
+Value: 13.836419721405981
+Seed: 1730586054
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [13, 31, 62, 148, 196]
+Value: 15.846405400762567
+Seed: 1730586277
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [111, 168]
+Value: 9.190979836936837
+Seed: 1730586472
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [54, 148, 173]
+Value: 11.426887545838433
+Seed: 1730586661
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [4, 38, 47, 236]
+Value: 13.515851514665156
+Seed: 1730586858
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [6, 53, 86, 167, 196]
+Value: 15.634391779939284
+Seed: 1730587084
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [108, 240]
+Value: 8.790574485478263
+Seed: 1730587270
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [105, 158, 205]
+Value: 11.163655181415503
+Seed: 1730587460
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [8, 49, 69, 161]
+Value: 13.288930435587718
+Seed: 1730587658
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [63, 105, 114, 135, 163]
+Value: 15.455252930649257
+Seed: 1730587854
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [107, 172]
+Value: 8.528335149175554
+Seed: 1730588047
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [138, 184, 188]
+Value: 10.917202155098304
+Seed: 1730588241
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [0, 12, 126, 183]
+Value: 13.12838075880899
+Seed: 1730588450
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [121, 125, 163, 172, 240]
+Value: 15.402389517007391
+Seed: 1730588671
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [105, 162]
+Value: 8.147556392162752
+Seed: 1730588856
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [80, 230, 247]
+Value: 10.60293274876546
+Seed: 1730589048
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [0, 19, 21, 122]
+Value: 13.059069195323179
+Seed: 1730589248
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [4, 7, 18, 189, 198]
+Value: 15.279255657775275
+Seed: 1730589453
+Run: 15
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [160, 212]
+Value: 9.21548426039371
+Seed: 1730589652
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [75, 160, 184]
+Value: 11.731798240853774
+Seed: 1730589848
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [24, 45, 89, 185]
+Value: 13.948481086418507
+Seed: 1730590053
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [19, 58, 126, 134, 184]
+Value: 16.0866877848871
+Seed: 1730590255
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [109, 184]
+Value: 9.264473780241438
+Seed: 1730590444
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [52, 116, 184]
+Value: 11.682358292678728
+Seed: 1730590642
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [37, 80, 129, 141]
+Value: 13.940171914573344
+Seed: 1730590832
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [18, 43, 70, 108, 181]
+Value: 16.030666949291234
+Seed: 1730591038
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [82, 182]
+Value: 9.258523529390335
+Seed: 1730591233
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [85, 137, 188]
+Value: 11.57588732702559
+Seed: 1730591424
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [21, 32, 81, 130]
+Value: 13.86305241095107
+Seed: 1730591616
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [11, 21, 27, 108, 140]
+Value: 16.01738329434008
+Seed: 1730591823
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [194, 236]
+Value: 9.244700510400532
+Seed: 1730591995
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [154, 165, 202]
+Value: 11.579543006070514
+Seed: 1730592189
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [91, 132, 156, 170]
+Value: 13.74301213881947
+Seed: 1730592394
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [39, 63, 99, 159, 206]
+Value: 15.86134266520548
+Seed: 1730592609
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [120, 186]
+Value: 9.33670505368299
+Seed: 1730592808
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [14, 104, 120]
+Value: 11.67338021463624
+Seed: 1730592996
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [179, 193, 212, 245]
+Value: 13.772060451812157
+Seed: 1730593196
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [19, 64, 107, 112, 206]
+Value: 15.894584622589205
+Seed: 1730593398
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [117, 178]
+Value: 9.420503004112886
+Seed: 1730593592
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [55, 69, 181]
+Value: 11.693511579951416
+Seed: 1730593791
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [68, 96, 181, 236]
+Value: 13.839462759653482
+Seed: 1730593995
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [17, 132, 139, 156, 197]
+Value: 15.837289764193162
+Seed: 1730594200
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [110, 168]
+Value: 9.190979836936837
+Seed: 1730594391
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [178, 189, 218]
+Value: 11.423749834603314
+Seed: 1730594589
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [99, 136, 173, 212]
+Value: 13.512163129743877
+Seed: 1730594788
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [69, 109, 147, 153, 192]
+Value: 15.628032782427704
+Seed: 1730595013
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [131, 173]
+Value: 8.790574485478263
+Seed: 1730595206
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [28, 79, 153]
+Value: 11.15436296726195
+Seed: 1730595404
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [96, 135, 173, 211]
+Value: 13.297387969165987
+Seed: 1730595608
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [11, 60, 105, 154, 205]
+Value: 15.44609434848904
+Seed: 1730595814
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [106, 218]
+Value: 8.528335149175554
+Seed: 1730596002
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [5, 67, 109]
+Value: 10.927379084157407
+Seed: 1730596197
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [3, 63, 121, 172]
+Value: 13.132251809961012
+Seed: 1730596396
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [93, 129, 135, 181, 242]
+Value: 15.39275714349041
+Seed: 1730596612
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [104, 163]
+Value: 8.147556392162752
+Seed: 1730596796
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [66, 113, 140]
+Value: 10.602217549219963
+Seed: 1730596978
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [1, 65, 137, 141]
+Value: 13.059069195323179
+Seed: 1730597189
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [66, 95, 132, 213, 217]
+Value: 15.261955252854776
+Seed: 1730597408
+Run: 16
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [43, 183]
+Value: 9.21548426039371
+Seed: 1730597597
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [55, 115, 185]
+Value: 11.731793037381825
+Seed: 1730597793
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [42, 89, 130, 184]
+Value: 13.953626300691047
+Seed: 1730597996
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [12, 84, 122, 126, 129]
+Value: 16.10553101238582
+Seed: 1730598207
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [168, 184]
+Value: 9.264473780241438
+Seed: 1730598398
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [54, 114, 190]
+Value: 11.682945099070938
+Seed: 1730598591
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [23, 110, 144, 231]
+Value: 13.935992287738365
+Seed: 1730598789
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [1, 53, 64, 117, 170]
+Value: 16.048878252745215
+Seed: 1730598991
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [95, 223]
+Value: 9.258523529390335
+Seed: 1730599187
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [113, 131, 187]
+Value: 11.577868009052175
+Seed: 1730599386
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [28, 75, 129, 184]
+Value: 13.861059935814545
+Seed: 1730599588
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [6, 73, 98, 108, 172]
+Value: 16.009396066597855
+Seed: 1730599808
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [184, 214]
+Value: 9.244700510400532
+Seed: 1730600005
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [164, 203, 247]
+Value: 11.57879393433702
+Seed: 1730600208
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [0, 20, 64, 237]
+Value: 13.744567930790335
+Seed: 1730600402
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [16, 55, 56, 149, 177]
+Value: 15.85099102297259
+Seed: 1730600618
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [84, 187]
+Value: 9.33670505368299
+Seed: 1730600815
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [4, 98, 145]
+Value: 11.67338021463624
+Seed: 1730601014
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [89, 128, 169, 206]
+Value: 13.776179502904387
+Seed: 1730601189
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [21, 86, 115, 160, 206]
+Value: 15.883984659739149
+Seed: 1730601403
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [116, 178]
+Value: 9.420503004112886
+Seed: 1730601596
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [53, 171, 232]
+Value: 11.689849364087765
+Seed: 1730601778
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [53, 130, 149, 224]
+Value: 13.84156086481883
+Seed: 1730601975
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [137, 145, 157, 241, 249]
+Value: 15.841254176592749
+Seed: 1730602201
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [154, 236]
+Value: 9.190979836936837
+Seed: 1730602394
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [103, 146, 186]
+Value: 11.42304476252087
+Seed: 1730602589
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [70, 89, 158, 222]
+Value: 13.501136068930679
+Seed: 1730602795
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [119, 128, 149, 160, 212]
+Value: 15.629508662166375
+Seed: 1730602989
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [91, 169]
+Value: 8.790574485478263
+Seed: 1730603171
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [70, 239, 255]
+Value: 11.163655181415503
+Seed: 1730603367
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [5, 60, 168, 196]
+Value: 13.282513415856295
+Seed: 1730603558
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [18, 136, 161, 216, 254]
+Value: 15.451652659471458
+Seed: 1730603771
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [20, 59]
+Value: 8.528335149175554
+Seed: 1730603949
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [88, 133, 176]
+Value: 10.927379084157407
+Seed: 1730604153
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [1, 60, 119, 173]
+Value: 13.130763490168162
+Seed: 1730604360
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [0, 50, 143, 187, 188]
+Value: 15.406838290858998
+Seed: 1730604568
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [104, 196]
+Value: 8.147556392162752
+Seed: 1730604757
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [115, 140, 212]
+Value: 10.60293274876546
+Seed: 1730604941
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [0, 43, 62, 170]
+Value: 13.056410522512682
+Seed: 1730605140
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [0, 77, 111, 158, 253]
+Value: 15.267088595483632
+Seed: 1730605365
+Run: 17
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [189, 192]
+Value: 9.21548426039371
+Seed: 1730605556
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [57, 116, 185]
+Value: 11.731154560520473
+Seed: 1730605757
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [11, 65, 140, 180]
+Value: 13.927770879615222
+Seed: 1730605967
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [45, 85, 115, 140, 177]
+Value: 16.108529106316595
+Seed: 1730606192
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [3, 27]
+Value: 9.264473780241438
+Seed: 1730606376
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [82, 115, 214]
+Value: 11.683467397426469
+Seed: 1730606568
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [71, 165, 176, 229]
+Value: 13.933950367923718
+Seed: 1730606762
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [41, 99, 135, 172, 204]
+Value: 16.027488616338758
+Seed: 1730606976
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [16, 113]
+Value: 9.258523529390335
+Seed: 1730607168
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [6, 34, 94]
+Value: 11.576265133199065
+Seed: 1730607354
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [51, 80, 109, 187]
+Value: 13.864951795234623
+Seed: 1730607545
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [30, 39, 132, 193, 206]
+Value: 15.991339210348748
+Seed: 1730607756
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [116, 189]
+Value: 9.244700510400532
+Seed: 1730607941
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [92, 174, 211]
+Value: 11.57879393433702
+Seed: 1730608136
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [45, 175, 217, 233]
+Value: 13.739967980218093
+Seed: 1730608341
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [4, 25, 78, 80, 216]
+Value: 15.874595810201294
+Seed: 1730608554
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [120, 186]
+Value: 9.33670505368299
+Seed: 1730608746
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [103, 150, 194]
+Value: 11.668144753485215
+Seed: 1730608936
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [133, 175, 175, 213]
+Value: 13.767721494491697
+Seed: 1730609133
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [21, 144, 176, 219, 234]
+Value: 15.89229342961885
+Seed: 1730609338
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [117, 178]
+Value: 9.420503004112886
+Seed: 1730609534
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [25, 139, 141]
+Value: 11.69109530639806
+Seed: 1730609729
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [48, 89, 120, 251]
+Value: 13.844439966335639
+Seed: 1730609933
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [59, 74, 148, 158, 195]
+Value: 15.84417135757586
+Seed: 1730610157
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [110, 169]
+Value: 9.190979836936837
+Seed: 1730610349
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [102, 169, 188]
+Value: 11.426563529345405
+Seed: 1730610546
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [86, 177, 202, 204]
+Value: 13.51816612607611
+Seed: 1730610765
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [37, 63, 100, 128, 232]
+Value: 15.629100501075097
+Seed: 1730610978
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [109, 172]
+Value: 8.790574485478263
+Seed: 1730611175
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [102, 156, 204]
+Value: 11.16101614188009
+Seed: 1730611371
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [23, 75, 85, 201]
+Value: 13.288138103063362
+Seed: 1730611558
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [17, 182, 193, 213, 234]
+Value: 15.450259106068868
+Seed: 1730611777
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [106, 173]
+Value: 8.528335149175554
+Seed: 1730611970
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [68, 135, 136]
+Value: 10.927695738806728
+Seed: 1730612162
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [2, 63, 119, 127]
+Value: 13.132251809961012
+Seed: 1730612370
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [105, 144, 145, 153, 190]
+Value: 15.392065802609299
+Seed: 1730612588
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [105, 162]
+Value: 8.147556392162752
+Seed: 1730612784
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [0, 68, 220]
+Value: 10.60293274876546
+Seed: 1730612980
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [66, 107, 150, 169]
+Value: 13.051767092557098
+Seed: 1730613183
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [9, 57, 126, 212, 215]
+Value: 15.271321223687373
+Seed: 1730613393
+Run: 18
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [94, 182]
+Value: 9.21548426039371
+Seed: 1730613590
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [56, 113, 184]
+Value: 11.731798240853774
+Seed: 1730613784
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [109, 115, 123, 128]
+Value: 13.945294394562957
+Seed: 1730613981
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [41, 84, 126, 207, 223]
+Value: 16.12181052159274
+Seed: 1730614197
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [2, 179]
+Value: 9.264473780241438
+Seed: 1730614384
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [52, 184, 185]
+Value: 11.683467397426469
+Seed: 1730614583
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [128, 157, 167, 233]
+Value: 13.93824233889183
+Seed: 1730614790
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [50, 103, 195, 212, 217]
+Value: 16.031747562865835
+Seed: 1730615015
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [111, 113]
+Value: 9.258523529390335
+Seed: 1730615204
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [33, 129, 154]
+Value: 11.577292714248077
+Seed: 1730615393
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [17, 130, 160, 187]
+Value: 13.863077248492395
+Seed: 1730615589
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [65, 101, 113, 130, 156]
+Value: 16.017141587189602
+Seed: 1730615801
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [22, 154]
+Value: 9.244700510400532
+Seed: 1730615989
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [99, 136, 186]
+Value: 11.565090456834238
+Seed: 1730616182
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [40, 43, 172, 197]
+Value: 13.748344252093034
+Seed: 1730616378
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [22, 67, 116, 166, 202]
+Value: 15.881605332073514
+Seed: 1730616578
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [120, 187]
+Value: 9.33670505368299
+Seed: 1730616776
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [101, 146, 195]
+Value: 11.674459496923618
+Seed: 1730616963
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [123, 169, 204, 239]
+Value: 13.779698388487844
+Seed: 1730617156
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [25, 106, 170, 194, 208]
+Value: 15.890431698924072
+Seed: 1730617354
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [117, 178]
+Value: 9.420503004112886
+Seed: 1730617542
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [99, 142, 187]
+Value: 11.690849132229005
+Seed: 1730617741
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [40, 89, 118, 193]
+Value: 13.845118139370612
+Seed: 1730617935
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [14, 62, 111, 160, 207]
+Value: 15.840730839887105
+Seed: 1730618140
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [161, 197]
+Value: 9.190979836936837
+Seed: 1730618332
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [103, 134, 188]
+Value: 11.426563529345405
+Seed: 1730618518
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [116, 134, 206, 209]
+Value: 13.513725466448141
+Seed: 1730618714
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [6, 11, 11, 194, 234]
+Value: 15.639318344880603
+Seed: 1730618924
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [11, 172]
+Value: 8.790574485478263
+Seed: 1730619121
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [0, 105, 204]
+Value: 11.162103537744146
+Seed: 1730619322
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [104, 134, 158, 211]
+Value: 13.293749686630703
+Seed: 1730619527
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [4, 44, 62, 156, 205]
+Value: 15.459309374323595
+Seed: 1730619752
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [14, 107]
+Value: 8.528335149175554
+Seed: 1730619934
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [57, 62, 92]
+Value: 10.92236738391418
+Seed: 1730620118
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [0, 61, 120, 173]
+Value: 13.127413469958075
+Seed: 1730620316
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [10, 58, 100, 201, 229]
+Value: 15.39255752535292
+Seed: 1730620524
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [64, 87]
+Value: 8.147556392162752
+Seed: 1730620701
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [49, 157, 178]
+Value: 10.60293274876546
+Seed: 1730620892
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [1, 58, 117, 165]
+Value: 13.049290856363221
+Seed: 1730621091
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [1, 61, 90, 135, 150]
+Value: 15.264948756800061
+Seed: 1730621298
+Run: 19
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [28, 95]
+Value: 9.21548426039371
+Seed: 1730621494
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [28, 115, 184]
+Value: 11.731793037381825
+Seed: 1730621688
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [42, 88, 129, 185]
+Value: 13.94917328988315
+Seed: 1730621892
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [30, 54, 114, 236, 244]
+Value: 16.119785931814615
+Seed: 1730622110
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [74, 132]
+Value: 9.264473780241438
+Seed: 1730622310
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [53, 114, 184]
+Value: 11.683467397426469
+Seed: 1730622500
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [21, 98, 185, 220]
+Value: 13.938327704481537
+Seed: 1730622694
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [36, 81, 112, 167, 200]
+Value: 16.022558609111577
+Seed: 1730622920
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [10, 91]
+Value: 9.258523529390335
+Seed: 1730623117
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [45, 59, 210]
+Value: 11.57588732702559
+Seed: 1730623319
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [28, 75, 153, 188]
+Value: 13.86169834424874
+Seed: 1730623511
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [65, 116, 168, 242, 250]
+Value: 16.014788396611408
+Seed: 1730623724
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [155, 200]
+Value: 9.244700510400532
+Seed: 1730623900
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [69, 111, 165]
+Value: 11.57879393433702
+Seed: 1730624086
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 4
+Thresholds: [128, 143, 207, 225]
+Value: 13.744132031597362
+Seed: 1730624294
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 5
+Thresholds: [1, 106, 187, 188, 215]
+Value: 15.874314831111331
+Seed: 1730624510
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 2
+Thresholds: [178, 234]
+Value: 9.33670505368299
+Seed: 1730624698
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 3
+Thresholds: [99, 142, 194]
+Value: 11.667782196013984
+Seed: 1730624899
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 4
+Thresholds: [91, 101, 168, 217]
+Value: 13.776353953143145
+Seed: 1730625099
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 062.png
+Level: 5
+Thresholds: [19, 65, 123, 155, 170]
+Value: 15.86597475564057
+Seed: 1730625319
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 2
+Thresholds: [116, 149]
+Value: 9.420503004112886
+Seed: 1730625531
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 3
+Thresholds: [39, 57, 227]
+Value: 11.690881626179586
+Seed: 1730625738
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 4
+Thresholds: [52, 143, 157, 210]
+Value: 13.842886183758896
+Seed: 1730625954
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 072.png
+Level: 5
+Thresholds: [72, 78, 117, 152, 207]
+Value: 15.853857918611801
+Seed: 1730626170
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 2
+Thresholds: [110, 169]
+Value: 9.190979836936837
+Seed: 1730626373
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 3
+Thresholds: [102, 147, 190]
+Value: 11.421992289727758
+Seed: 1730626585
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 4
+Thresholds: [14, 158, 171, 211]
+Value: 13.515851514665156
+Seed: 1730626814
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 082.png
+Level: 5
+Thresholds: [10, 65, 117, 167, 207]
+Value: 15.633153940035672
+Seed: 1730627049
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 2
+Thresholds: [109, 172]
+Value: 8.790574485478263
+Seed: 1730627240
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 3
+Thresholds: [69, 159, 194]
+Value: 11.162417336292593
+Seed: 1730627466
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 4
+Thresholds: [87, 114, 159, 230]
+Value: 13.2801050339276
+Seed: 1730627677
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 092.png
+Level: 5
+Thresholds: [46, 46, 150, 166, 211]
+Value: 15.452403629954679
+Seed: 1730627900
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 2
+Thresholds: [172, 172]
+Value: 8.528335149175554
+Seed: 1730628113
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 3
+Thresholds: [92, 125, 189]
+Value: 10.927695738806728
+Seed: 1730628318
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 4
+Thresholds: [3, 126, 165, 180]
+Value: 13.13019748472608
+Seed: 1730628518
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 102.png
+Level: 5
+Thresholds: [2, 14, 98, 143, 244]
+Value: 15.378130562731037
+Seed: 1730628740
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 2
+Thresholds: [99, 162]
+Value: 8.147556392162752
+Seed: 1730628933
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 3
+Thresholds: [1, 68, 141]
+Value: 10.60293274876546
+Seed: 1730629136
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 4
+Thresholds: [26, 26, 116, 190]
+Value: 13.051893375939034
+Seed: 1730629363
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 112.png
+Level: 5
+Thresholds: [15, 20, 47, 79, 190]
+Value: 15.27776360853359
+Seed: 1730629595
+Run: 20
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 2
+Thresholds: [94, 183]
+Value: 9.21548426039371
+Seed: 1730629792
+Run: 21
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 3
+Thresholds: [95, 184, 242]
+Value: 11.733280904522735
+Seed: 1730629999
+Run: 21
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 4
+Thresholds: [21, 184, 191, 207]
+Value: 13.9478778055264
+Seed: 1730630221
+Run: 21
+-------------------------------------------
+Method: kapur_entropy
+Image: 022.png
+Level: 5
+Thresholds: [24, 47, 66, 92, 162]
+Value: 16.09982033357503
+Seed: 1730630438
+Run: 21
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 2
+Thresholds: [200, 212]
+Value: 9.264473780241438
+Seed: 1730630648
+Run: 21
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 3
+Thresholds: [53, 115, 184]
+Value: 11.683467397426469
+Seed: 1730630857
+Run: 21
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 4
+Thresholds: [20, 63, 184, 223]
+Value: 13.940171914573344
+Seed: 1730631068
+Run: 21
+-------------------------------------------
+Method: kapur_entropy
+Image: 032.png
+Level: 5
+Thresholds: [21, 36, 123, 175, 206]
+Value: 16.042995479492355
+Seed: 1730631297
+Run: 21
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 2
+Thresholds: [112, 183]
+Value: 9.258523529390335
+Seed: 1730631504
+Run: 21
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 3
+Thresholds: [14, 232, 243]
+Value: 11.577868009052175
+Seed: 1730631720
+Run: 21
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 4
+Thresholds: [129, 195, 224, 231]
+Value: 13.861614962606588
+Seed: 1730631941
+Run: 21
+-------------------------------------------
+Method: kapur_entropy
+Image: 042.png
+Level: 5
+Thresholds: [22, 105, 172, 186, 209]
+Value: 16.01136623888584
+Seed: 1730632153
+Run: 21
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 2
+Thresholds: [51, 103]
+Value: 9.244700510400532
+Seed: 1730632352
+Run: 21
+-------------------------------------------
+Method: kapur_entropy
+Image: 052.png
+Level: 3
+Thresholds: [165, 193, 197]
+Value: 11.579543006070514
+Seed: 1730632570
+Run: 21
+-------------------------------------------
